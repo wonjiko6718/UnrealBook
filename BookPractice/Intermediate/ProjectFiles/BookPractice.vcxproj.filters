@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BookPractice.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{92F1C087-DB37-4C87-B7AE-B3C86820B649}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BookPractice.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BookPracticeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0727D910-99C3-4924-82D5-E13ADC4D8550}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BookPractice">
+      <UniqueIdentifier>{1901A0F6-D005-4C4D-92D6-E36DA8AF31E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BookPractice\BookPractice.Build.cs">
+      <Filter>Source\BookPractice</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BookPractice\BookPractice.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\BookPractice.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\BookPracticeCharacter.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\BookPracticeCharacter.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\BookPracticeGameMode.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\BookPracticeGameMode.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\Fountain.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\Fountain.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

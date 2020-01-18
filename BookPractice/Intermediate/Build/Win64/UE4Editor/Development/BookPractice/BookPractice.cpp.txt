@@ -1,0 +1,2 @@
+C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\Definitions.BookPractice.h
+C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\BookPractice.h
