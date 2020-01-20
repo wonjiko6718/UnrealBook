@@ -10,7 +10,6 @@ UCLASS()
 class BOOKPRACTICE_API AFountain : public AActor
 {
 	GENERATED_BODY()
-	
 public:	
 	// Sets default values for this actor's properties
 	AFountain();
@@ -25,16 +24,16 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* Body;
+		UStaticMeshComponent* Body;
 
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* Water;
+		UStaticMeshComponent* Water;
 
 	UPROPERTY(VisibleAnywhere)
-	UPointLightComponent* Light;
+		UPointLightComponent* Light;
 
 	UPROPERTY(VisibleAnywhere)
-	UParticleSystemComponent* Splash;
+		UParticleSystemComponent* Splash;
 
 	UPROPERTY(EditAnywhere, Category = ID)
 		int32 ID;
