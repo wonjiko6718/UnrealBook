@@ -1,16 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
-  Creating makefile for BookPracticeEditor (ini files are newer than makefile)
   Parsing headers for BookPracticeEditor
     Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BookPracticeEditor in 5.1521037 seconds
+  Reflection code generated for BookPracticeEditor in 5.478199 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 12 processes...
-    [1/5] Fountain.gen.cpp
-    [2/5] Fountain.cpp
-    [3/5] UE4Editor-BookPractice-0009.lib
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0009.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0009.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/5] UE4Editor-BookPractice-0009.dll
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0009.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0009.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [5/5] BookPracticeEditor.target
-  Total time in Parallel executor: 2.96 seconds
-  Total execution time: 9.88 seconds
+  Building 4 actions with 12 processes...
+    [1/4] Fountain.cpp
+    [2/4] UE4Editor-BookPractice-0011.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0011.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0011.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-BookPractice-0011.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0011.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0011.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] BookPracticeEditor.target
+  Total time in Parallel executor: 2.76 seconds
+  Total execution time: 8.90 seconds

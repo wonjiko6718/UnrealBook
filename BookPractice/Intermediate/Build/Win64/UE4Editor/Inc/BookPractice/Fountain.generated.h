@@ -57,7 +57,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFountain); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFountain)
 
 
-#define BookPractice_Source_BookPractice_Fountain_h_12_PRIVATE_PROPERTY_OFFSET
+#define BookPractice_Source_BookPractice_Fountain_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(AFountain, RotateSpeed); }
+
+
 #define BookPractice_Source_BookPractice_Fountain_h_9_PROLOG
 #define BookPractice_Source_BookPractice_Fountain_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

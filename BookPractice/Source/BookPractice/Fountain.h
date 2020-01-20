@@ -38,4 +38,7 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = ID)
 		int32 ID;
+private:
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+		float RotateSpeed;
 };

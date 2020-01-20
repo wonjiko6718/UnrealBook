@@ -35,6 +35,10 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotateSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotateSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ID_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ID;
@@ -68,6 +72,14 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 		{ "ModuleRelativePath", "Fountain.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_RotateSpeed_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "Fountain.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_RotateSpeed = { "RotateSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, RotateSpeed), METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_RotateSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_RotateSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFountain_Statics::NewProp_ID_MetaData[] = {
 		{ "Category", "ID" },
@@ -108,6 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFountain_Statics::NewProp_Body = { "Body", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFountain, Body), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFountain_Statics::NewProp_Body_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFountain_Statics::NewProp_Body_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFountain_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFountain_Statics::NewProp_RotateSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFountain_Statics::NewProp_ID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFountain_Statics::NewProp_Splash,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFountain_Statics::NewProp_Light,
@@ -141,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFountain, 1890164098);
+	IMPLEMENT_CLASS(AFountain, 2112386749);
 	template<> BOOKPRACTICE_API UClass* StaticClass<AFountain>()
 	{
 		return AFountain::StaticClass();
