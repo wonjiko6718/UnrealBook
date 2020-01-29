@@ -13,3 +13,10 @@ void AABPlayerController::OnPossess(APawn*apawn)
 	ABLOG_S(Warning);
 	Super::OnPossess(apawn);
 }
+void AABPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	FInputModeGameOnly InputMode;
+	SetInputMode(InputMode);
+}

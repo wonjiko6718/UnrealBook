@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBookPractice_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3755583B,
+				0x9617FF78,
 				0x184C2CA6,
 				METADATA_PARAMS(nullptr, 0)
 			};

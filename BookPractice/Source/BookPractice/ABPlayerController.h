@@ -17,4 +17,6 @@ class BOOKPRACTICE_API AABPlayerController : public APlayerController
 public:
 	virtual void PostInitializeComponents() override;
 	virtual void OnPossess(APawn*apawn)override;
+protected:
+	virtual void BeginPlay() override;
 };
