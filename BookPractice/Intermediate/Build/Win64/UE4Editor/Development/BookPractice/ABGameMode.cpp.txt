@@ -194,9 +194,7 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABGameMode.generated.h
-C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\ABPawn.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/FloatingPawnMovement.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FloatingPawnMovement.generated.h
-C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABPawn.generated.h
+C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\ABCharacter.h
+C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABCharacter.generated.h
 C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\ABPlayerController.h
 C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABPlayerController.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BookPractice.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F83F4C34-58A5-4423-88BF-B3C1086A683C}</UniqueIdentifier>
+      <UniqueIdentifier>{71B6B103-FF38-4FE1-98FC-5B067521BECF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7A22B942-2D52-4831-9B6E-CD5EEBC2ECCB}</UniqueIdentifier>
+      <UniqueIdentifier>{48831A81-EC83-40F4-AEE8-CE98499D4E86}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,30 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BookPractice">
-      <UniqueIdentifier>{76D4E95A-6043-4F0B-B0C2-3E751A949B1F}</UniqueIdentifier>
+      <UniqueIdentifier>{F0F33CF1-16C3-4D61-82CA-DA98E7FB75C0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BookPractice\ABCharacter.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABCharacter.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BookPractice\ABGameMode.cpp">
       <Filter>Source\BookPractice</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BookPractice\ABGameMode.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\ABPawn.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABPawn.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\ABPlayerController.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABPlayerController.h">
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
     <None Include="..\..\Source\BookPractice\BookPractice.Build.cs">
@@ -65,21 +83,5 @@
     <ClInclude Include="..\..\Source\BookPractice\Fountain.h">
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BookPractice\ABPawn.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BookPractice\ABPlayerController.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BookPractice\ABPawn.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BookPractice\ABPlayerController.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
