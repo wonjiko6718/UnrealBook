@@ -2,14 +2,14 @@
   Creating makefile for BookPracticeEditor (ini files are newer than makefile)
   Parsing headers for BookPracticeEditor
     Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BookPracticeEditor in 5.6560839 seconds
+  Reflection code generated for BookPracticeEditor in 5.4854839 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
     [1/4] ABCharacter.cpp
-    [2/4] UE4Editor-BookPractice-0057.lib
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0057.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0057.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-BookPractice-0057.dll
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0057.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0057.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [2/4] UE4Editor-BookPractice-0003.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0003.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0003.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-BookPractice-0003.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0003.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0003.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
     [4/4] BookPracticeEditor.target
-  Total time in Parallel executor: 3.31 seconds
-  Total execution time: 10.78 seconds
+  Total time in Parallel executor: 3.30 seconds
+  Total execution time: 11.01 seconds
