@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BookPractice.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{71B6B103-FF38-4FE1-98FC-5B067521BECF}</UniqueIdentifier>
+      <UniqueIdentifier>{4BE84A4C-25F6-4A1B-B1D6-2019210D8709}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{48831A81-EC83-40F4-AEE8-CE98499D4E86}</UniqueIdentifier>
+      <UniqueIdentifier>{000B6CE9-7E77-4B93-B02D-A067E4A474C3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BookPractice">
-      <UniqueIdentifier>{F0F33CF1-16C3-4D61-82CA-DA98E7FB75C0}</UniqueIdentifier>
+      <UniqueIdentifier>{90400A34-5F21-41A5-9EA5-EE74481212F7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BookPractice\ABAnimInstance.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABAnimInstance.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BookPractice\ABCharacter.cpp">
       <Filter>Source\BookPractice</Filter>
     </ClCompile>

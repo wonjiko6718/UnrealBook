@@ -372,6 +372,8 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\BookPractice\ABAnimInstance.cpp"/>
+    <ClInclude Include="..\..\Source\BookPractice\ABAnimInstance.h"/>
     <ClCompile Include="..\..\Source\BookPractice\ABCharacter.cpp"/>
     <ClInclude Include="..\..\Source\BookPractice\ABCharacter.h"/>
     <ClCompile Include="..\..\Source\BookPractice\ABGameMode.cpp"/>

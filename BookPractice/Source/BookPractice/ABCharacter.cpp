@@ -28,7 +28,7 @@ AABCharacter::AABCharacter()
 	}
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 
-	static ConstructorHelpers::FClassFinder<UAnimInstance>WARRIOR_ANIM(TEXT("/Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint"));
+	static ConstructorHelpers::FClassFinder<UAnimInstance>WARRIOR_ANIM(TEXT("/Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C"));
 	if (WARRIOR_ANIM.Succeeded())
 	{
 		GetMesh()->SetAnimInstanceClass(WARRIOR_ANIM.Class);
@@ -54,6 +54,16 @@ void AABCharacter::Tick(float DeltaTime)
 	{
 	case EControlMode::DIABLO:
 		SpringArm->RelativeRotation = FMath::RInterpTo(SpringArm->RelativeRotation, ArmRotationTo, DeltaTime, ArmRotationSpeed);
+		break;
+	}
+	switch (CurrentControlMode)
+	{
+	case EControlMode::DIABLO:
+		if (DirectionToMove.SizeSquared() > 0.0f)
+		{
+			GetController()->SetControlRotation(FRotationMatrix::MakeFromX(DirectionToMove).Rotator());
+			AddMovementInput(DirectionToMove);
+		}
 		break;
 	}
 }
