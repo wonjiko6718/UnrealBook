@@ -8,13 +8,38 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
 #ifdef BOOKPRACTICE_ABCharacter_generated_h
 #error "ABCharacter.generated.h already included, missing '#pragma once' in ABCharacter.h"
 #endif
 #define BOOKPRACTICE_ABCharacter_generated_h
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnAttackMontageEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	}
+
+
+#define BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnAttackMontageEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	}
+
+
 #define BookPractice_Source_BookPractice_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAABCharacter(); \
@@ -57,7 +82,15 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AABCharacter)
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define BookPractice_Source_BookPractice_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AABCharacter, IsAttacking); } \
+	FORCEINLINE static uint32 __PPO__ABAnim() { return STRUCT_OFFSET(AABCharacter, ABAnim); } \
+	FORCEINLINE static uint32 __PPO__CanNextCombo() { return STRUCT_OFFSET(AABCharacter, CanNextCombo); } \
+	FORCEINLINE static uint32 __PPO__IsComboInputOn() { return STRUCT_OFFSET(AABCharacter, IsComboInputOn); } \
+	FORCEINLINE static uint32 __PPO__CurrentCombo() { return STRUCT_OFFSET(AABCharacter, CurrentCombo); } \
+	FORCEINLINE static uint32 __PPO__MaxCombo() { return STRUCT_OFFSET(AABCharacter, MaxCombo); }
+
+
 #define BookPractice_Source_BookPractice_ABCharacter_h_9_PROLOG
 #define BookPractice_Source_BookPractice_ABCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

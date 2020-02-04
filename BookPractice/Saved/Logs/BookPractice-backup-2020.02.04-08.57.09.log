@@ -1,0 +1,1535 @@
+﻿Log file open, 02/04/20 16:52:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BookPractice
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.781412
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.04-07.52.08:745][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.04-07.52.08:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:746][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:752][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.04-07.52.08:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.04-07.52.08:753][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.04-07.52.08:754][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.04-07.52.08:754][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.04-07.52.08:780][  0]LogHAL: Display: Platform has ~ 16 GB [17073135616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.04-07.52.08:780][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.04-07.52.08:780][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.04-07.52.08:780][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Scalability.ini]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.04-07.52.08:781][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.04-07.52.08:785][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.04-07.52.08:785][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.04-07.52.08:785][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Config/Windows/Engine.ini]
+[2020.02.04-07.52.08:786][  0]LogInit: Computer: LAPTOP-1UG54T2R
+[2020.02.04-07.52.08:786][  0]LogInit: User: wonji
+[2020.02.04-07.52.08:786][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.02.04-07.52.08:786][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.04-07.52.08:786][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.04-07.52.08:786][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.04-07.52.08:786][  0]LogMemory: Process Physical Memory: 101.68 MB used, 101.68 MB peak
+[2020.02.04-07.52.08:786][  0]LogMemory: Process Virtual Memory: 89.73 MB used, 89.73 MB peak
+[2020.02.04-07.52.08:786][  0]LogMemory: Physical Memory: 4992.01 MB used,  11290.20 MB free, 16282.21 MB total
+[2020.02.04-07.52.08:786][  0]LogMemory: Virtual Memory: 4661.15 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.02.04-07.52.09:003][  0]LogInit: Using OS detected language (ko-KR).
+[2020.02.04-07.52.09:003][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.02.04-07.52.09:004][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.02.04-07.52.09:181][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.04-07.52.09:282][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.04-07.52.09:282][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.04-07.52.11:248][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.04-07.52.11:248][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.04-07.52.11:334][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
+[2020.02.04-07.52.11:334][  0]LogD3D11RHI:       8010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.04-07.52.11:363][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.02.04-07.52.11:363][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.04-07.52.11:367][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.04-07.52.11:368][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.04-07.52.11:368][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.04-07.52.11:399][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.04-07.52.11:400][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.04-07.52.11:400][  0]LogWindows: EnumDisplayDevices:
+[2020.02.04-07.52.11:400][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.02.04-07.52.11:400][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.04-07.52.11:400][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.04-07.52.11:401][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:1)
+[2020.02.04-07.52.11:401][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.02.04-07.52.11:401][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.02.04-07.52.11:402][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.02.04-07.52.11:402][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.02.04-07.52.11:402][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
+[2020.02.04-07.52.11:402][  0]LogD3D11RHI:   Driver Version: 425.45 (internal:25.21.14.2545, unified:425.45)
+[2020.02.04-07.52.11:402][  0]LogD3D11RHI:      Driver Date: 4-23-2019
+[2020.02.04-07.52.11:402][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.02.04-07.52.11:445][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.04-07.52.11:451][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.04-07.52.11:452][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.04-07.52.11:452][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.04-07.52.11:466][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.02.04-07.52.12:045][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.04-07.52.12:058][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.04-07.52.12:071][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.04-07.52.12:084][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.04-07.52.12:102][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.04-07.52.12:115][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.04-07.52.12:129][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.04-07.52.12:142][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.04-07.52.12:149][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.04-07.52.12:226][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.04-07.52.12:229][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.04-07.52.12:294][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.04-07.52.12:294][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.04-07.52.12:316][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.04-07.52.12:316][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.04-07.52.12:328][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.04-07.52.12:340][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.04-07.52.12:351][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.04-07.52.12:371][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.04-07.52.12:414][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.04-07.52.12:414][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.04-07.52.12:414][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.04-07.52.12:457][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.04-07.52.12:591][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Intermediate/Shaders/WorkingDirectory/20560/).
+[2020.02.04-07.52.12:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wonji/AppData/Local/Temp/UnrealShaderWorkingDir/E1599B954563F3DEF215FBAF54BEF2B4/'.
+[2020.02.04-07.52.12:596][  0]LogXGEController: Cleaning working directory: C:/Users/wonji/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.04-07.52.12:596][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.04-07.52.12:597][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.04-07.52.12:597][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.04-07.52.14:485][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.04-07.52.14:572][  0]LogDerivedDataCache: Loaded boot cache 0.09s 76MB C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.04-07.52.14:572][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.04-07.52.14:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.04-07.52.14:572][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.04-07.52.14:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.04-07.52.14:572][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.04-07.52.14:592][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.04-07.52.14:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.04-07.52.14:592][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.04-07.52.14:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wonji/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.04-07.52.14:605][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.04-07.52.14:605][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.04-07.52.14:625][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.04-07.52.14:632][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.04-07.52.14:644][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.04-07.52.14:903][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
+[2020.02.04-07.52.15:254][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.04-07.52.15:526][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.04-07.52.15:526][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.04-07.52.15:527][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.04-07.52.15:527][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.04-07.52.15:527][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.04-07.52.15:568][  0]LogNetVersion: BookPractice 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3270002839)
+[2020.02.04-07.52.16:643][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.042944 seconds
+[2020.02.04-07.52.16:649][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.04-07.52.16:649][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.04-07.52.16:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.04-07.52.19:747][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.04-07.52.19:770][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.04-07.52.20:067][  0]LogUObjectGlobals: Warning: 'Class /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint' 오브젝트를 찾는 데 실패했습니다.
+[2020.02.04-07.52.20:067][  0]Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+[2020.02.04-07.52.20:469][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2020.02.04-07.52.20:469][  0]LogUObjectBase: Warning: Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+[2020.02.04-07.52.47:351][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.02.04-07.52.47:425][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.02.04-07.52.47:425][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.02.04-07.52.47:437][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.02.04-07.52.47:440][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.02.04-07.52.47:734][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.04-07.52.47:868][  0]LogOcInput: OculusInput pre-init called
+[2020.02.04-07.52.48:781][  0]LogEngine: Initializing Engine...
+[2020.02.04-07.52.48:782][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.04-07.52.48:784][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.04-07.52.49:115][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.04-07.52.49:192][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.04-07.52.49:222][  0]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-07.52.49:445][  0]LogInit: FAudioDevice initialized.
+[2020.02.04-07.52.49:445][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.04-07.52.49:509][  0]LogDerivedDataCache: Saved boot cache 0.06s 76MB C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.04-07.52.49:513][  0]LogInit: Texture streaming: Enabled
+[2020.02.04-07.52.49:569][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.04-07.52.49:613][  0]LogInit: Transaction tracking system initialized
+[2020.02.04-07.52.49:659][  0]BlueprintLog: New page: 에디터 로드
+[2020.02.04-07.52.49:815][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.02.04-07.52.50:357][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/' took 0.03s
+[2020.02.04-07.52.50:357][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.04-07.52.50:357][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.04-07.52.50:950][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.02.04-07.52.50:950][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/ThirdPersonCPP/Maps/step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.04-07.52.50:951][  0]LightingResults: New page: 라이팅 빌드
+[2020.02.04-07.52.50:959][  0]MapCheck: New page: 맵 체크
+[2020.02.04-07.52.50:959][  0]LightingResults: New page: 라이팅 빌드
+[2020.02.04-07.52.50:990][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.02.04-07.52.51:235][  0]LogAIModule: Creating AISystem for world step2
+[2020.02.04-07.52.51:256][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.04-07.52.51:285][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.02.04-07.52.51:285][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.04-07.52.51:286][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.128ms.
+[2020.02.04-07.52.51:286][  0]LogFileHelpers: Loading map 'step2' took 0.336
+[2020.02.04-07.52.51:438][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.02.04-07.52.51:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.52.51:584][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.52.51:593][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.52.51:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.52.51:626][  0]LogCollectionManager: Loaded 0 collections in 0.001912 seconds
+[2020.02.04-07.52.51:682][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/Collections/' took 0.01s
+[2020.02.04-07.52.51:682][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/Developers/wonji/Collections/' took 0.01s
+[2020.02.04-07.52.51:682][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/Collections/' took 0.00s
+[2020.02.04-07.52.51:682][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.04-07.52.51:699][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2740 classes and 661 folders.
+[2020.02.04-07.52.51:719][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.04-07.52.51:729][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:750][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:756][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:805][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:812][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:865][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:901][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:906][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.51:910][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.04-07.52.52:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.04-07.52.52:037][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.02.04-07.52.52:220][  0]LogSlate: Took 0.007118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.04-07.52.52:232][  0]LogSlate: Took 0.011512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.02.04-07.52.52:240][  0]LogSlate: Took 0.008084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.02.04-07.52.52:245][  0]LogSlate: Took 0.004395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.04-07.52.52:254][  0]LogSlate: Took 0.004907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.04-07.52.52:557][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.02.04-07.52.52:700][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.04-07.52.52:700][  0]LogLoad: (Engine Initialization) Total time: 47.88 seconds
+[2020.02.04-07.52.52:701][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.04-07.52.52:748][  0]LogAssetRegistry: Asset discovery search completed in 37.8676 seconds
+[2020.02.04-07.52.52:750][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.04-07.52.52:750][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2020.02.04-07.52.52:752][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.04-07.52.52:798][  0]LogSlate: Took 0.004867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.04-07.52.57:331][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-07.52.57:397][265]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-07.52.57:411][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.52.57:411][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.04-07.52.57:414][265]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 1:52:57)
+[2020.02.04-07.52.57:428][265]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-07.52.57:429][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002263s)
+[2020.02.04-07.52.57:430][265]LogAIModule: Creating AISystem for world step2
+[2020.02.04-07.52.57:430][265]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2020.02.04-07.52.57:430][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.003104s)
+[2020.02.04-07.52.57:455][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.02.04-07.52.57:460][265]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-07.52.57:471][265]LogInit: FAudioDevice initialized.
+[2020.02.04-07.52.57:518][265]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-07.52.57:525][265]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-16.52.57
+[2020.02.04-07.52.57:526][265]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-07.52.57:527][265]LogWorld: Bringing up level for play took: 0.003448
+[2020.02.04-07.52.57:542][265]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-07.52.57:544][265]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-07.52.57:571][265]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2020.02.04-07.52.57:572][265]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-07.52.57:575][265]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-07.52.57:575][265]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-07.52.57:575][265]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-07.52.57:576][265]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: -0.791
+[2020.02.04-07.52.57:576][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.05:199][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.05:199][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.54.05:199][319]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-07.54.05:234][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-07.54.05:234][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.05:286][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.54.05:289][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.02.04-07.54.05:303][320]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.02.04-07.54.06:674][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-07.54.06:740][406]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-07.54.06:758][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.06:758][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.04-07.54.06:758][406]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 1:54:06)
+[2020.02.04-07.54.06:758][406]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-07.54.06:760][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001977s)
+[2020.02.04-07.54.06:761][406]LogAIModule: Creating AISystem for world step2
+[2020.02.04-07.54.06:761][406]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2020.02.04-07.54.06:761][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.002870s)
+[2020.02.04-07.54.06:784][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.02.04-07.54.06:789][406]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-07.54.06:799][406]LogInit: FAudioDevice initialized.
+[2020.02.04-07.54.06:824][406]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-07.54.06:826][406]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-16.54.06
+[2020.02.04-07.54.06:826][406]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-07.54.06:826][406]LogWorld: Bringing up level for play took: 0.000664
+[2020.02.04-07.54.06:839][406]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-07.54.06:840][406]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-07.54.06:841][406]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-07.54.06:842][406]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-07.54.06:842][406]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-07.54.06:842][406]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-07.54.06:843][406]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: 0.475
+[2020.02.04-07.54.06:843][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.42:154][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.42:155][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.54.42:155][522]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-07.54.42:182][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-07.54.42:182][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.42:212][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.54.42:214][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.02.04-07.54.42:265][525]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.02.04-07.54.47:869][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-07.54.48:725][912]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-07.54.48:742][913]BookPractice: Warning: AABPawn::PostInitializeComponents(75)
+[2020.02.04-07.54.50:785][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2020.02.04-07.54.52:025][105]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_SQUARE)
+[2020.02.04-07.54.52:050][105]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.04-07.54.52:748][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2020.02.04-07.54.54:119][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-07.54.54:186][233]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-07.54.54:199][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.54.54:199][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.04-07.54.54:199][233]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 1:54:54)
+[2020.02.04-07.54.54:199][233]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-07.54.54:201][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001837s)
+[2020.02.04-07.54.54:201][233]LogAIModule: Creating AISystem for world step2
+[2020.02.04-07.54.54:201][233]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2020.02.04-07.54.54:201][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.002478s)
+[2020.02.04-07.54.54:224][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.02.04-07.54.54:229][233]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-07.54.54:240][233]LogInit: FAudioDevice initialized.
+[2020.02.04-07.54.54:274][233]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-07.54.54:277][233]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-16.54.54
+[2020.02.04-07.54.54:277][233]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-07.54.54:277][233]LogWorld: Bringing up level for play took: 0.001654
+[2020.02.04-07.54.54:290][233]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-07.54.54:291][233]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-07.54.54:292][233]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-07.54.54:292][233]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-07.54.54:292][233]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-07.54.54:292][233]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-07.54.54:293][233]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: -0.074
+[2020.02.04-07.54.54:293][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.56.43:694][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.56.43:694][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.56.43:694][794]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-07.56.43:724][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-07.56.43:724][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-07.56.43:766][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-07.56.43:768][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.02.04-07.56.43:808][796]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.04-07.57.07:344][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-07.57.08:797][295]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.04-07.57.08:805][295]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+[2020.02.04-07.57.08:839][295]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.02.04-07.57.09:046][295]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.02.04-07.57.09:066][295]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2020.02.04-07.57.09:493][295]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.02.04-07.57.10:396][295]LogSlate: Took 0.004964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.04-07.57.10:571][295]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.02.04-07.57.48:667][189]LogSlate: Window '새 애니메이션 애셋 생성' being destroyed
+[2020.02.04-07.57.48:687][189]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2020.02.04-07.57.48:690][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.02.04-07.57.49:231][189]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.02.04-07.58.21:970][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.01.47:440][461]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/SK_Mannequin_Skeleton_Montage7DCEDE6A4EDBDCF98EC4A592163E32F6.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/Animations/SK_Mannequin_Skeleton_Montage.uasset'
+[2020.02.04-08.01.49:382][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.01.57:789][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.04-08.02.00:280][225]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.04-08.02.00:337][225]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2020.02.04-08.02.01:138][225]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.02.04-08.02.42:490][685]LogSlate: Window '프로젝트 세팅' being destroyed
+[2020.02.04-08.02.42:494][685]LogSlate: Window '프로젝트 세팅' being destroyed
+[2020.02.04-08.02.44:504][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.02.44:654][808]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.02.04-08.02.44:839][808]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/step2FFE9813245FAC86A5D3453A3F7065D00.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/ThirdPersonCPP/Maps/step2.umap'
+[2020.02.04-08.02.44:891][808]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/step2_BuiltData5CAC1D8442B9049666ED548AF0FB5489.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/ThirdPersonCPP/Maps/step2_BuiltData.uasset'
+[2020.02.04-08.02.50:711][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.02.53:735][337]LogAssetEditorManager: Opening Asset editor for Class /Script/BookPractice.ABCharacter
+[2020.02.04-08.06.47:488][ 23]LogHotReload: New module detected: UE4Editor-BookPractice-0006.dll
+[2020.02.04-08.06.48:181][ 26]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.04-08.06.48:265][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.02.04-08.06.48:265][ 26]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (unloaded)
+[2020.02.04-08.06.48:315][ 26]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.02.04-08.06.48:456][ 26]Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+[2020.02.04-08.06.48:461][ 26]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (loaded)
+[2020.02.04-08.06.48:462][ 26]LogContentBrowser: Native class hierarchy updated for 'BookPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2020.02.04-08.06.48:462][ 26]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+
+[2020.02.04-08.06.48:466][ 26]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.04-08.06.48:678][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.02.04-08.06.48:678][ 26]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.04-08.06.48:690][ 26]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2742 classes and 665 folders.
+[2020.02.04-08.06.48:693][ 26]Display: HotReload took  0.5s.
+[2020.02.04-08.06.50:760][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.06.51:052][ 33]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-08.06.51:070][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.06.51:070][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.04-08.06.51:070][ 33]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 2:06:51)
+[2020.02.04-08.06.51:071][ 33]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-08.06.51:073][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002099s)
+[2020.02.04-08.06.51:073][ 33]LogAIModule: Creating AISystem for world step2
+[2020.02.04-08.06.51:074][ 33]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2020.02.04-08.06.51:074][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.003108s)
+[2020.02.04-08.06.51:128][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.02.04-08.06.51:133][ 33]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-08.06.51:144][ 33]LogInit: FAudioDevice initialized.
+[2020.02.04-08.06.51:173][ 33]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-08.06.51:174][ 33]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-17.06.51
+[2020.02.04-08.06.51:174][ 33]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-08.06.51:175][ 33]LogWorld: Bringing up level for play took: 0.000699
+[2020.02.04-08.06.51:189][ 33]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-08.06.51:190][ 33]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-08.06.51:192][ 33]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-08.06.51:192][ 33]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-08.06.51:192][ 33]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-08.06.51:193][ 33]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-08.06.51:193][ 33]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: 0.827
+[2020.02.04-08.06.51:194][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.06.52:170][ 87]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.06.52:354][ 98]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.06.52:487][106]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.06.53:038][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.06.53:038][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.06.53:038][139]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-08.06.53:070][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-08.06.53:070][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.06.53:119][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.06.53:132][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.02.04-08.06.53:153][140]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.02.04-08.06.56:953][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.06.56:967][367]LogSlate: Took 0.009929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.02.04-08.06.57:004][367]LogSlate: Took 0.008341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2020.02.04-08.06.59:654][525]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-08.06.59:673][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.06.59:674][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.04-08.06.59:674][525]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 2:06:59)
+[2020.02.04-08.06.59:674][525]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-08.06.59:676][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001781s)
+[2020.02.04-08.06.59:676][525]LogAIModule: Creating AISystem for world step2
+[2020.02.04-08.06.59:676][525]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2020.02.04-08.06.59:677][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.002689s)
+[2020.02.04-08.06.59:709][525]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.02.04-08.06.59:714][525]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-08.06.59:724][525]LogInit: FAudioDevice initialized.
+[2020.02.04-08.06.59:749][525]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-08.06.59:750][525]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-17.06.59
+[2020.02.04-08.06.59:750][525]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-08.06.59:750][525]LogWorld: Bringing up level for play took: 0.000814
+[2020.02.04-08.06.59:762][525]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-08.06.59:762][525]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-08.06.59:763][525]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-08.06.59:763][525]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-08.06.59:763][525]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-08.06.59:763][525]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-08.06.59:763][525]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: -0.603
+[2020.02.04-08.06.59:764][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.07.01:074][603]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.01:523][630]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.01:723][642]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.02:173][669]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.02:356][680]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.02:525][690]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.03:307][737]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.03:874][771]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.04:040][781]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.04:190][790]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.04:340][799]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.05:273][855]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.05:440][865]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.05:556][872]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.07.05:790][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.07.05:791][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.07.05:791][886]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-08.07.05:820][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-08.07.05:820][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.07.05:877][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.07.05:882][886]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.02.04-08.07.05:903][887]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.02.04-08.11.44:062][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.15.41:987][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.17.46:407][476]LogSlate: Window 'SK_Mannequin_Skeleton_Montage' being destroyed
+[2020.02.04-08.17.46:413][476]LogSlate: Window 'SK_Mannequin_Skeleton_Montage' being destroyed
+[2020.02.04-08.18.15:986][631]Candidate modules for hot reload:
+[2020.02.04-08.18.15:986][631]  BookPractice
+[2020.02.04-08.18.15:986][631]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,5090 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.18.15:990][631]Warning: Starting HotReload took  0.1s.
+[2020.02.04-08.18.23:285][855]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:18:23
+[2020.02.04-08.18.23:285][855]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.18.23:286][855]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.18.23:286][855]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.18.23:287][855]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 5.2908792 seconds
+[2020.02.04-08.18.23:288][855]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.18.23:288][855]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.02.04-08.18.23:288][855]CompilerResultsLog:   [1/3] UE4Editor-BookPractice-5090.lib
+[2020.02.04-08.18.23:289][855]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5090.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5090.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.18.23:306][855]LogSlate: Took 0.014230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.02.04-08.18.23:307][855]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
+Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
+[2020.02.04-08.18.23:308][855]LogSlate: Took 0.001444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.02.04-08.18.23:308][855]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2020.02.04-08.18.23:319][855]LogSlate: Took 0.009476 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.02.04-08.18.23:322][855]CompilerResultsLog:   [2/3] UE4Editor-BookPractice-5090.dll
+[2020.02.04-08.18.23:322][855]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5090.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5090.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.18.23:323][855]CompilerResultsLog:   [3/3] BookPracticeEditor.target
+[2020.02.04-08.18.23:323][855]CompilerResultsLog: Total time in Parallel executor: 0.85 seconds
+[2020.02.04-08.18.23:323][855]CompilerResultsLog: Total execution time: 7.03 seconds
+[2020.02.04-08.18.23:323][855]LogMainFrame: MainFrame: Module compiling took 7.341 seconds
+[2020.02.04-08.18.23:381][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.02.04-08.18.23:381][855]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (unloaded)
+[2020.02.04-08.18.23:408][855]LogClass: Could not find existing class ABAnimInstance in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.04-08.18.23:428][855]LogHotReload: Re-instancing ABAnimInstance after hot-reload.
+[2020.02.04-08.18.23:689][855]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.02.04-08.18.23:845][855]Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+[2020.02.04-08.18.23:850][855]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (loaded)
+[2020.02.04-08.18.23:850][855]LogContentBrowser: Native class hierarchy updated for 'BookPractice' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.02.04-08.18.23:851][855]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+
+[2020.02.04-08.18.23:854][855]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.04-08.18.23:940][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.02.04-08.18.23:940][855]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.04-08.18.23:954][855]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2742 classes and 665 folders.
+[2020.02.04-08.18.23:954][855]Display: HotReload took  8.1s.
+[2020.02.04-08.24.16:015][269]Candidate modules for hot reload:
+[2020.02.04-08.24.16:015][269]  BookPractice
+[2020.02.04-08.24.16:015][269]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,9196 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.24.16:020][269]Warning: Starting HotReload took  0.0s.
+[2020.02.04-08.24.39:767][686]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:24:39
+[2020.02.04-08.24.39:767][686]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.24.39:767][686]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.24.39:767][686]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.24.39:768][686]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 19.6977227 seconds
+[2020.02.04-08.24.39:768][686]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.24.39:768][686]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.02.04-08.24.39:768][686]CompilerResultsLog:   [1/3] UE4Editor-BookPractice-9196.lib
+[2020.02.04-08.24.39:768][686]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9196.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9196.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.24.39:769][686]CompilerResultsLog:   [2/3] UE4Editor-BookPractice-9196.dll
+[2020.02.04-08.24.39:769][686]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9196.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9196.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.24.39:770][686]CompilerResultsLog:   [3/3] BookPracticeEditor.target
+[2020.02.04-08.24.39:770][686]CompilerResultsLog: Total time in Parallel executor: 1.59 seconds
+[2020.02.04-08.24.39:770][686]CompilerResultsLog: Total execution time: 23.61 seconds
+[2020.02.04-08.24.39:770][686]LogMainFrame: MainFrame: Module compiling took 23.756 seconds
+[2020.02.04-08.24.39:839][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.02.04-08.24.39:839][686]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (unloaded)
+[2020.02.04-08.24.39:879][686]Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+[2020.02.04-08.24.39:884][686]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (loaded)
+[2020.02.04-08.24.39:885][686]LogContentBrowser: Native class hierarchy updated for 'BookPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2020.02.04-08.24.39:885][686]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+
+[2020.02.04-08.24.39:890][686]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.04-08.24.39:972][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.02.04-08.24.39:972][686]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.04-08.24.39:988][686]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2742 classes and 665 folders.
+[2020.02.04-08.24.39:989][686]Display: HotReload took 24.0s.
+[2020.02.04-08.24.42:027][791]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+[2020.02.04-08.24.42:050][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.02.04-08.24.42:850][791]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.02.04-08.25.16:496][807]LogSlate: Took 0.005007 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.04-08.25.44:643][480]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Saved/WarriorAnimBlueprintB8B155AD4A34802B68AF59BC3727866A.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/Content/Animations/WarriorAnimBlueprint.uasset'
+[2020.02.04-08.25.46:255][576]LogSlate: Window 'WarriorAnimBlueprint' being destroyed
+[2020.02.04-08.25.46:261][576]LogSlate: Window 'WarriorAnimBlueprint' being destroyed
+[2020.02.04-08.27.50:897][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2020.02.04-08.27.54:273][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.27.54:323][182]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-08.27.54:341][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.27.54:342][182]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2020.02.04-08.27.54:342][182]LogPlayLevel: [PlayLevel] Compiling WarriorAnimBlueprint before play...
+[2020.02.04-08.27.54:547][182]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.02.04-08.27.54:547][182]LogPlayLevel: PlayLevel: Blueprint regeneration took 205 ms (1 blueprints)
+[2020.02.04-08.27.54:548][182]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 2:27:54)
+[2020.02.04-08.27.54:548][182]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-08.27.54:550][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001804s)
+[2020.02.04-08.27.54:550][182]LogAIModule: Creating AISystem for world step2
+[2020.02.04-08.27.54:551][182]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2020.02.04-08.27.54:551][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.003100s)
+[2020.02.04-08.27.54:594][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.02.04-08.27.54:599][182]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-08.27.54:611][182]LogInit: FAudioDevice initialized.
+[2020.02.04-08.27.54:643][182]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-08.27.54:644][182]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-17.27.54
+[2020.02.04-08.27.54:645][182]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-08.27.54:645][182]LogWorld: Bringing up level for play took: 0.000802
+[2020.02.04-08.27.54:658][182]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-08.27.54:658][182]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-08.27.54:660][182]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-08.27.54:660][182]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-08.27.54:661][182]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-08.27.54:661][182]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-08.27.54:662][182]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: 0.295
+[2020.02.04-08.27.54:662][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.27.56:055][265]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.27.56:454][289]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.27.56:671][302]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.27.56:871][314]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.03:221][695]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.03:671][722]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.04:188][753]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.04:321][761]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.04:621][779]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.04:771][788]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.04:938][798]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.05:072][806]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.05:238][816]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.05:389][825]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.05:538][834]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.05:671][842]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.05:821][851]BookPractice: Warning: AABCharacter::Attack(182)
+[2020.02.04-08.28.06:255][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.28.06:256][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.28.06:256][877]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-08.28.06:283][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-08.28.06:284][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.28.06:314][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.28.06:318][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.02.04-08.28.06:366][880]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.02.04-08.28.08:072][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.28.08:148][986]Candidate modules for hot reload:
+[2020.02.04-08.28.08:148][986]  BookPractice
+[2020.02.04-08.28.08:148][986]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,9382 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.28.08:152][986]Warning: Starting HotReload took  0.0s.
+[2020.02.04-08.28.16:497][484]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:28:16
+[2020.02.04-08.28.16:498][484]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.28.16:498][484]CompilerResultsLog: Creating makefile for BookPracticeEditor (ini files are newer than makefile)
+[2020.02.04-08.28.16:498][484]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.28.16:498][484]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.28.16:499][484]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 5.5961415 seconds
+[2020.02.04-08.28.16:499][484]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.28.16:499][484]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.02.04-08.28.16:499][484]CompilerResultsLog:   [1/3] UE4Editor-BookPractice-9382.lib
+[2020.02.04-08.28.16:499][484]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9382.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9382.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.28.16:500][484]CompilerResultsLog:   [2/3] UE4Editor-BookPractice-9382.dll
+[2020.02.04-08.28.16:500][484]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9382.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-9382.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.28.16:501][484]CompilerResultsLog:   [3/3] BookPracticeEditor.target
+[2020.02.04-08.28.16:501][484]CompilerResultsLog: Total time in Parallel executor: 0.84 seconds
+[2020.02.04-08.28.16:501][484]CompilerResultsLog: Total execution time: 8.27 seconds
+[2020.02.04-08.28.16:501][484]LogMainFrame: MainFrame: Module compiling took 8.355 seconds
+[2020.02.04-08.28.16:529][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.02.04-08.28.16:529][484]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (unloaded)
+[2020.02.04-08.28.16:569][484]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.02.04-08.28.16:667][484]Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+[2020.02.04-08.28.16:672][484]LogBlueprintActionDatabase: Requesting refresh due to module change: BookPractice (loaded)
+[2020.02.04-08.28.16:672][484]LogContentBrowser: Native class hierarchy updated for 'BookPractice' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.02.04-08.28.16:672][484]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (ABPawn): Failed to find /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint
+
+
+[2020.02.04-08.28.16:676][484]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.04-08.28.16:730][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.02.04-08.28.16:730][484]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.04-08.28.16:744][484]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2742 classes and 665 folders.
+[2020.02.04-08.28.16:744][484]Display: HotReload took  8.6s.
+[2020.02.04-08.28.19:008][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.28.19:042][609]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.04-08.28.19:061][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.28.19:062][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.04-08.28.19:062][609]PIE: New page: PIE 세션: step2 (2020. 2. 5. 오전 2:28:19)
+[2020.02.04-08.28.19:062][609]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2
+[2020.02.04-08.28.19:067][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004155s)
+[2020.02.04-08.28.19:067][609]LogAIModule: Creating AISystem for world step2
+[2020.02.04-08.28.19:068][609]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2020.02.04-08.28.19:068][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step2.step2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 (0.005520s)
+[2020.02.04-08.28.19:130][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.02.04-08.28.19:134][609]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.04-08.28.19:146][609]LogInit: FAudioDevice initialized.
+[2020.02.04-08.28.19:177][609]LogLoad: Game class is 'ABGameMode'
+[2020.02.04-08.28.19:178][609]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2.step2 up for play (max tick rate 60) at 2020.02.04-17.28.19
+[2020.02.04-08.28.19:178][609]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.04-08.28.19:179][609]LogWorld: Bringing up level for play took: 0.000796
+[2020.02.04-08.28.19:190][609]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.04-08.28.19:190][609]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.04-08.28.19:191][609]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.04-08.28.19:191][609]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.04-08.28.19:191][609]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.04-08.28.19:191][609]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.04-08.28.19:191][609]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step2 에 대한 에디터에서 플레이 시작 시간: 0.824
+[2020.02.04-08.28.19:192][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.28.34:354][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.28.34:355][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.28.34:356][515]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.04-08.28.34:384][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.04-08.28.34:384][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step2.step2_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step2.step2:PersistentLevel.step2'
+[2020.02.04-08.28.34:437][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.04-08.28.34:442][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.02.04-08.28.34:457][516]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.02.04-08.34.41:283][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.04-08.34.41:486][358]Candidate modules for hot reload:
+[2020.02.04-08.34.41:487][358]  BookPractice
+[2020.02.04-08.34.41:487][358]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,5426 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.34.41:490][358]Warning: Starting HotReload took  0.0s.
+[2020.02.04-08.34.59:424][426]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:34:59
+[2020.02.04-08.34.59:424][426]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.34.59:425][426]CompilerResultsLog: Creating makefile for BookPracticeEditor (ini files are newer than makefile)
+[2020.02.04-08.34.59:425][426]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.34.59:425][426]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.34.59:425][426]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 6.1708974 seconds
+[2020.02.04-08.34.59:426][426]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.34.59:426][426]CompilerResultsLog: Building 17 actions with 12 processes...
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [1/17] ABAnimInstance.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [2/17] ABPlayerController.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [3/17] BookPractice.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [4/17] ABPawn.gen.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [5/17] ABGameMode.gen.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [6/17] ABGameMode.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [7/17] ABPawn.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [8/17] Fountain.cpp
+[2020.02.04-08.34.59:426][426]CompilerResultsLog:   [9/17] ABPlayerController.gen.cpp
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:   [10/17] ABCharacter.cpp
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:   [11/17] ABAnimInstance.gen.cpp
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:   [12/17] Fountain.gen.cpp
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:   [13/17] BookPractice.init.gen.cpp
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:   [14/17] ABCharacter.gen.cpp
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:   [15/17] UE4Editor-BookPractice-5426.lib
+[2020.02.04-08.34.59:427][426]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5426.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5426.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.34.59:428][426]CompilerResultsLog:   [16/17] UE4Editor-BookPractice-5426.dll
+[2020.02.04-08.34.59:428][426]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5426.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-5426.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.34.59:428][426]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.34.59:429][426]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.34.59:429][426]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2019: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ(???? ??ġ: "public: static void __cdecl AABCharacter::execOnAttackMontageEnded(class UObject *,struct FFrame &,void * const)" (?execOnAttackMontageEnded@AABCharacter@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?Լ?)???? Ȯ?????? ???߽??ϴ?.
+[2020.02.04-08.34.59:430][426]CompilerResultsLog: Error:   ABGameMode.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.34.59:430][426]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.34.59:430][426]CompilerResultsLog: Error:   C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-5426.dll : fatal error LNK1120: 2???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2020.02.04-08.34.59:430][426]LogMainFrame: MainFrame: Module compiling took 17.945 seconds
+[2020.02.04-08.34.59:431][426]Warning: HotReload failed, recompile failed
+[2020.02.04-08.36.47:584][375]LogSlate: Window '메시지 로그' being destroyed
+[2020.02.04-08.36.47:589][375]LogSlate: Window '메시지 로그' being destroyed
+[2020.02.04-08.39.23:530][ 55]Candidate modules for hot reload:
+[2020.02.04-08.39.23:530][ 55]  BookPractice
+[2020.02.04-08.39.23:530][ 55]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,469 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.39.23:534][ 55]Warning: Starting HotReload took  0.0s.
+[2020.02.04-08.39.30:618][209]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:39:30
+[2020.02.04-08.39.30:619][209]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.39.30:620][209]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.39.30:620][209]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.39.30:623][209]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 5.4806625 seconds
+[2020.02.04-08.39.30:623][209]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.39.30:625][209]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.02.04-08.39.30:625][209]CompilerResultsLog:   [1/3] UE4Editor-BookPractice-0469.lib
+[2020.02.04-08.39.30:626][209]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0469.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0469.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.39.30:629][209]CompilerResultsLog:   [2/3] UE4Editor-BookPractice-0469.dll
+[2020.02.04-08.39.30:630][209]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0469.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0469.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.39.30:632][209]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.39.30:633][209]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.39.30:634][209]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2019: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ(???? ??ġ: "public: static void __cdecl AABCharacter::execOnAttackMontageEnded(class UObject *,struct FFrame &,void * const)" (?execOnAttackMontageEnded@AABCharacter@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?Լ?)???? Ȯ?????? ???߽??ϴ?.
+[2020.02.04-08.39.30:636][209]CompilerResultsLog: Error:   ABGameMode.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.39.30:637][209]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.39.30:638][209]CompilerResultsLog: Error:   C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0469.dll : fatal error LNK1120: 2???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2020.02.04-08.39.30:639][209]LogMainFrame: MainFrame: Module compiling took 7.112 seconds
+[2020.02.04-08.39.30:640][209]Warning: HotReload failed, recompile failed
+[2020.02.04-08.39.44:690][916]LogSlate: Window '메시지 로그' being destroyed
+[2020.02.04-08.39.44:694][916]LogSlate: Window '메시지 로그' being destroyed
+[2020.02.04-08.41.48:606][868]Candidate modules for hot reload:
+[2020.02.04-08.41.48:606][868]  BookPractice
+[2020.02.04-08.41.48:606][868]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,3897 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.41.48:610][868]Warning: Starting HotReload took  0.0s.
+[2020.02.04-08.42.03:695][118]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:42:03
+[2020.02.04-08.42.03:697][118]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.42.03:697][118]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.42.03:697][118]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.42.03:699][118]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 5.2249203 seconds
+[2020.02.04-08.42.03:700][118]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.42.03:701][118]CompilerResultsLog: Building 16 actions with 12 processes...
+[2020.02.04-08.42.03:701][118]CompilerResultsLog:   [1/16] ABAnimInstance.cpp
+[2020.02.04-08.42.03:702][118]CompilerResultsLog:   [2/16] BookPractice.cpp
+[2020.02.04-08.42.03:702][118]CompilerResultsLog:   [3/16] ABPlayerController.gen.cpp
+[2020.02.04-08.42.03:702][118]CompilerResultsLog:   [4/16] ABPlayerController.cpp
+[2020.02.04-08.42.03:703][118]CompilerResultsLog:   [5/16] Fountain.gen.cpp
+[2020.02.04-08.42.03:703][118]CompilerResultsLog:   [6/16] ABPawn.gen.cpp
+[2020.02.04-08.42.03:703][118]CompilerResultsLog:   [7/16] ABAnimInstance.gen.cpp
+[2020.02.04-08.42.03:704][118]CompilerResultsLog:   [8/16] ABPawn.cpp
+[2020.02.04-08.42.03:704][118]CompilerResultsLog:   [9/16] ABGameMode.cpp
+[2020.02.04-08.42.03:704][118]CompilerResultsLog:   [10/16] ABCharacter.gen.cpp
+[2020.02.04-08.42.03:704][118]CompilerResultsLog:   [11/16] ABGameMode.gen.cpp
+[2020.02.04-08.42.03:705][118]CompilerResultsLog:   [12/16] ABCharacter.cpp
+[2020.02.04-08.42.03:705][118]CompilerResultsLog:   [13/16] Fountain.cpp
+[2020.02.04-08.42.03:705][118]CompilerResultsLog:   [14/16] UE4Editor-BookPractice-3897.lib
+[2020.02.04-08.42.03:705][118]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-3897.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-3897.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.42.03:708][118]CompilerResultsLog:   [15/16] UE4Editor-BookPractice-3897.dll
+[2020.02.04-08.42.03:708][118]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-3897.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-3897.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.42.03:710][118]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.42.03:711][118]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.42.03:712][118]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2019: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ(???? ??ġ: "public: static void __cdecl AABCharacter::execOnAttackMontageEnded(class UObject *,struct FFrame &,void * const)" (?execOnAttackMontageEnded@AABCharacter@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?Լ?)???? Ȯ?????? ???߽??ϴ?.
+[2020.02.04-08.42.03:714][118]CompilerResultsLog: Error:   ABGameMode.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.42.03:715][118]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.42.03:716][118]CompilerResultsLog: Error:   C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-3897.dll : fatal error LNK1120: 2???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2020.02.04-08.42.03:717][118]LogMainFrame: MainFrame: Module compiling took 15.112 seconds
+[2020.02.04-08.42.03:717][118]Warning: HotReload failed, recompile failed
+[2020.02.04-08.45.20:384][541]Candidate modules for hot reload:
+[2020.02.04-08.45.20:384][541]  BookPractice
+[2020.02.04-08.45.20:384][541]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,4544 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.04-08.45.20:388][541]Warning: Starting HotReload took  0.0s.
+[2020.02.04-08.45.27:255][951]CompilerResultsLog: New page: 컴파일 - 2020. 2. 5. 오전 2:45:27
+[2020.02.04-08.45.27:255][951]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.04-08.45.27:255][951]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.04-08.45.27:255][951]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.04-08.45.27:256][951]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 5.4254973 seconds
+[2020.02.04-08.45.27:256][951]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.04-08.45.27:256][951]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.02.04-08.45.27:256][951]CompilerResultsLog:   [1/3] UE4Editor-BookPractice-4544.lib
+[2020.02.04-08.45.27:256][951]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-4544.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-4544.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.45.27:257][951]CompilerResultsLog:   [2/3] UE4Editor-BookPractice-4544.dll
+[2020.02.04-08.45.27:257][951]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-4544.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-4544.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.04-08.45.27:257][951]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.45.27:258][951]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.45.27:258][951]CompilerResultsLog: Error:   ABCharacter.cpp.obj : error LNK2019: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ(???? ??ġ: "public: static void __cdecl AABCharacter::execOnAttackMontageEnded(class UObject *,struct FFrame &,void * const)" (?execOnAttackMontageEnded@AABCharacter@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?Լ?)???? Ȯ?????? ???߽??ϴ?.
+[2020.02.04-08.45.27:259][951]CompilerResultsLog: Error:   ABGameMode.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.45.27:259][951]CompilerResultsLog: Error:   ABCharacter.gen.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) ?ܺ? ??ȣ?? Ȯ???? ?? ?????ϴ?.
+[2020.02.04-08.45.27:260][951]CompilerResultsLog: Error:   C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-4544.dll : fatal error LNK1120: 2???? Ȯ???? ?? ???? ?ܺ? ?????Դϴ?.
+[2020.02.04-08.45.27:260][951]LogMainFrame: MainFrame: Module compiling took 6.879 seconds
+[2020.02.04-08.45.27:260][951]Warning: HotReload failed, recompile failed
+[2020.02.04-08.57.05:319][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.02.04-08.57.05:405][710]LogSlate: Window 'BookPractice - 언리얼 에디터' being destroyed
+[2020.02.04-08.57.05:660][711]Cmd: QUIT_EDITOR
+[2020.02.04-08.57.05:703][711]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.02.04-08.57.05:719][711]LogExit: Preparing to exit.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:818][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:823][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:827][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:829][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:829][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:829][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:830][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:830][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:830][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:830][711]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.02.04-08.57.06:895][711]LogExit: Editor shut down
+[2020.02.04-08.57.06:896][711]LogExit: Transaction tracking system shut down
+[2020.02.04-08.57.07:229][711]LogExit: Object subsystem successfully closed.
+[2020.02.04-08.57.07:280][711]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.02.04-08.57.07:300][711]LogD3D11RHI: Shutdown
+[2020.02.04-08.57.07:300][711]LogD3D11RHI: CleanupD3DDevice
+[2020.02.04-08.57.07:304][711]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.04-08.57.07:304][711]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.04-08.57.07:305][711]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.04-08.57.07:305][711]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.04-08.57.07:305][711]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.04-08.57.07:305][711]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.04-08.57.07:486][711]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.02.04-08.57.07:542][711]LogModuleManager: Shutting down and abandoning module BookPractice (662)
+[2020.02.04-08.57.07:542][711]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (658)
+[2020.02.04-08.57.07:543][711]LogModuleManager: Shutting down and abandoning module AnimationEditor (656)
+[2020.02.04-08.57.07:543][711]LogModuleManager: Shutting down and abandoning module BlueprintGraph (654)
+[2020.02.04-08.57.07:543][711]LogModuleManager: Shutting down and abandoning module PinnedCommandList (652)
+[2020.02.04-08.57.07:543][711]LogModuleManager: Shutting down and abandoning module SkeletonEditor (650)
+[2020.02.04-08.57.07:543][711]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2020.02.04-08.57.07:543][711]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2020.02.04-08.57.07:544][711]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.02.04-08.57.07:544][711]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2020.02.04-08.57.07:544][711]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2020.02.04-08.57.07:552][711]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2020.02.04-08.57.07:552][711]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2020.02.04-08.57.07:552][711]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2020.02.04-08.57.07:553][711]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.02.04-08.57.07:554][711]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.02.04-08.57.07:555][711]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.02.04-08.57.07:558][711]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.02.04-08.57.07:559][711]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.02.04-08.57.07:559][711]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.02.04-08.57.07:559][711]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.02.04-08.57.07:559][711]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.02.04-08.57.07:559][711]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.02.04-08.57.07:559][711]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.02.04-08.57.07:563][711]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.02.04-08.57.07:563][711]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.02.04-08.57.07:564][711]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.02.04-08.57.07:564][711]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.02.04-08.57.07:564][711]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.02.04-08.57.07:565][711]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.02.04-08.57.07:567][711]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.02.04-08.57.07:567][711]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.02.04-08.57.07:568][711]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.02.04-08.57.07:568][711]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.02.04-08.57.07:569][711]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.02.04-08.57.07:569][711]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.02.04-08.57.07:569][711]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.02.04-08.57.07:569][711]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.02.04-08.57.07:570][711]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.02.04-08.57.07:571][711]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.02.04-08.57.07:572][711]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.02.04-08.57.07:573][711]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.02.04-08.57.07:573][711]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.02.04-08.57.07:573][711]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.02.04-08.57.07:573][711]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.02.04-08.57.07:573][711]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.02.04-08.57.07:573][711]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.02.04-08.57.07:574][711]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.02.04-08.57.07:575][711]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.02.04-08.57.07:577][711]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.02.04-08.57.07:579][711]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.02.04-08.57.07:581][711]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.02.04-08.57.07:581][711]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.02.04-08.57.07:581][711]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.02.04-08.57.07:581][711]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.02.04-08.57.07:581][711]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.02.04-08.57.09:102][711]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.02.04-08.57.09:102][711]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.02.04-08.57.09:102][711]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.02.04-08.57.09:102][711]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.02.04-08.57.09:102][711]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.02.04-08.57.09:102][711]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.02.04-08.57.09:103][711]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.02.04-08.57.09:104][711]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.02.04-08.57.09:106][711]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.02.04-08.57.09:106][711]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.02.04-08.57.09:106][711]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.02.04-08.57.09:107][711]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.02.04-08.57.09:108][711]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.02.04-08.57.09:109][711]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.02.04-08.57.09:109][711]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.02.04-08.57.09:109][711]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.02.04-08.57.09:111][711]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.02.04-08.57.09:111][711]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.02.04-08.57.09:111][711]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.02.04-08.57.09:113][711]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.02.04-08.57.09:113][711]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.02.04-08.57.09:114][711]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.02.04-08.57.09:115][711]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.02.04-08.57.09:158][711]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.02.04-08.57.09:159][711]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.02.04-08.57.09:161][711]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.02.04-08.57.09:163][711]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.02.04-08.57.09:163][711]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.02.04-08.57.09:164][711]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.02.04-08.57.09:165][711]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.02.04-08.57.09:165][711]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.02.04-08.57.09:165][711]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.02.04-08.57.09:165][711]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.02.04-08.57.09:165][711]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.02.04-08.57.09:180][711]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.02.04-08.57.09:181][711]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.02.04-08.57.09:181][711]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.02.04-08.57.09:181][711]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.02.04-08.57.09:182][711]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.02.04-08.57.09:183][711]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.02.04-08.57.09:184][711]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.02.04-08.57.09:184][711]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.02.04-08.57.09:185][711]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.02.04-08.57.09:185][711]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.02.04-08.57.09:186][711]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.02.04-08.57.09:187][711]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.02.04-08.57.09:187][711]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.02.04-08.57.09:187][711]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.02.04-08.57.09:188][711]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.02.04-08.57.09:188][711]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.02.04-08.57.09:188][711]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.02.04-08.57.09:188][711]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.02.04-08.57.09:188][711]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.02.04-08.57.09:188][711]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.02.04-08.57.09:189][711]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.02.04-08.57.09:189][711]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.02.04-08.57.09:189][711]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.02.04-08.57.09:190][711]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.02.04-08.57.09:203][711]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.02.04-08.57.09:403][711]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.02.04-08.57.09:404][711]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.02.04-08.57.09:404][711]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.02.04-08.57.09:405][711]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.02.04-08.57.09:406][711]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.02.04-08.57.09:407][711]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.02.04-08.57.09:407][711]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.02.04-08.57.09:407][711]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.02.04-08.57.09:408][711]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.02.04-08.57.09:408][711]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.02.04-08.57.09:408][711]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.02.04-08.57.09:408][711]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.02.04-08.57.09:409][711]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.02.04-08.57.09:409][711]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.02.04-08.57.09:409][711]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.02.04-08.57.09:411][711]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.02.04-08.57.09:412][711]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.02.04-08.57.09:412][711]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.02.04-08.57.09:412][711]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.02.04-08.57.09:412][711]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.02.04-08.57.09:413][711]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.02.04-08.57.09:413][711]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.02.04-08.57.09:413][711]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.02.04-08.57.09:413][711]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.02.04-08.57.09:413][711]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.02.04-08.57.09:414][711]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.02.04-08.57.09:415][711]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.02.04-08.57.09:415][711]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.02.04-08.57.09:419][711]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.02.04-08.57.09:420][711]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.02.04-08.57.09:422][711]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.02.04-08.57.09:422][711]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.02.04-08.57.09:422][711]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.02.04-08.57.09:422][711]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.02.04-08.57.09:422][711]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.02.04-08.57.09:423][711]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.02.04-08.57.09:425][711]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.02.04-08.57.09:427][711]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.02.04-08.57.09:429][711]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.02.04-08.57.09:429][711]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.02.04-08.57.09:430][711]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.02.04-08.57.09:432][711]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.02.04-08.57.09:432][711]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.02.04-08.57.09:433][711]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.02.04-08.57.09:433][711]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.02.04-08.57.09:433][711]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.02.04-08.57.09:433][711]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.02.04-08.57.09:433][711]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.02.04-08.57.09:534][711]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.02.04-08.57.09:635][711]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.02.04-08.57.09:635][711]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.02.04-08.57.09:635][711]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.02.04-08.57.09:636][711]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.02.04-08.57.09:636][711]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.02.04-08.57.09:637][711]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.02.04-08.57.09:637][711]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.02.04-08.57.09:637][711]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.02.04-08.57.09:637][711]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.02.04-08.57.09:637][711]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.02.04-08.57.09:638][711]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.02.04-08.57.09:638][711]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.02.04-08.57.09:638][711]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.02.04-08.57.09:639][711]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.02.04-08.57.09:645][711]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.02.04-08.57.09:645][711]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.02.04-08.57.09:646][711]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.02.04-08.57.09:646][711]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.02.04-08.57.09:647][711]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.02.04-08.57.09:651][711]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.02.04-08.57.09:651][711]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.02.04-08.57.09:651][711]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.02.04-08.57.09:651][711]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.02.04-08.57.09:652][711]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.02.04-08.57.09:652][711]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.02.04-08.57.09:653][711]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.02.04-08.57.09:654][711]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.02.04-08.57.09:654][711]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.02.04-08.57.09:654][711]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.02.04-08.57.09:655][711]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.02.04-08.57.09:655][711]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.02.04-08.57.09:655][711]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.02.04-08.57.09:655][711]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.02.04-08.57.09:655][711]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.02.04-08.57.09:656][711]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.02.04-08.57.09:656][711]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.02.04-08.57.09:657][711]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.02.04-08.57.09:658][711]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.02.04-08.57.09:658][711]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.02.04-08.57.09:659][711]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.02.04-08.57.09:659][711]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.02.04-08.57.09:660][711]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.02.04-08.57.09:662][711]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.02.04-08.57.09:662][711]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.02.04-08.57.09:663][711]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.02.04-08.57.09:663][711]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.02.04-08.57.09:667][711]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.02.04-08.57.09:668][711]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.02.04-08.57.09:668][711]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.02.04-08.57.09:668][711]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.02.04-08.57.09:668][711]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.02.04-08.57.09:668][711]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.02.04-08.57.09:669][711]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.02.04-08.57.09:669][711]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.02.04-08.57.09:670][711]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.02.04-08.57.09:690][711]LogDerivedDataCache: Shutdown
+[2020.02.04-08.57.09:690][711]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.02.04-08.57.09:690][711]LogXGEController: Cleaning working directory: C:/Users/wonji/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.04-08.57.09:690][711]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.02.04-08.57.09:691][711]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.02.04-08.57.09:691][711]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.02.04-08.57.09:691][711]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.02.04-08.57.09:692][711]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.02.04-08.57.09:692][711]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.02.04-08.57.09:692][711]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.02.04-08.57.09:692][711]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.02.04-08.57.09:693][711]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.02.04-08.57.09:693][711]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.02.04-08.57.09:693][711]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.02.04-08.57.09:693][711]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.02.04-08.57.09:693][711]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.02.04-08.57.09:693][711]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.02.04-08.57.09:694][711]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.02.04-08.57.09:694][711]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.02.04-08.57.09:694][711]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.02.04-08.57.09:708][711]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.02.04-08.57.09:708][711]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.02.04-08.57.09:709][711]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.02.04-08.57.09:709][711]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.02.04-08.57.09:709][711]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.02.04-08.57.09:715][711]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.02.04-08.57.09:715][711]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.02.04-08.57.09:720][711]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.02.04-08.57.09:720][711]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.02.04-08.57.09:748][711]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.02.04-08.57.09:749][711]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.02.04-08.57.09:750][711]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.02.04-08.57.09:750][711]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.02.04-08.57.09:755][711]LogHMD: Freeing OpenVRDLLHandle.
+[2020.02.04-08.57.09:755][711]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.02.04-08.57.09:755][711]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.02.04-08.57.09:755][711]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.02.04-08.57.09:755][711]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.02.04-08.57.09:755][711]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.02.04-08.57.09:756][711]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.02.04-08.57.09:757][711]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.02.04-08.57.09:787][711]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.02.04-08.57.09:787][711]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.02.04-08.57.09:787][711]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B72AC6BEE-4416-29AA-C542-439E89EC9290%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=f12ef1bb4e594f414e84f2897a34c226%7C3f48d6b6f70f467b93bb318a4d8594ab%7C9b5ca533-6ae9-4b13-bf4a-4b300a6c18da&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.02.04-08.57.09:815][711]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.02.04-08.57.09:817][711]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.02.04-08.57.09:818][711]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.02.04-08.57.09:825][711]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.02.04-08.57.09:825][711]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.02.04-08.57.09:825][711]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.02.04-08.57.09:826][711]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.02.04-08.57.09:826][711]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.02.04-08.57.09:827][711]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.02.04-08.57.09:828][711]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.02.04-08.57.09:828][711]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.02.04-08.57.09:828][711]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.02.04-08.57.09:830][711]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.02.04-08.57.09:831][711]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.02.04-08.57.09:843][711]LogExit: Exiting.
+[2020.02.04-08.57.09:856][711]Log file closed, 02/04/20 17:57:09
