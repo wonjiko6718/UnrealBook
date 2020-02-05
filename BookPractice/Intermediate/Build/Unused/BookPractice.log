@@ -1,30 +1,27 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+  Creating makefile for BookPracticeEditor (ini files are newer than makefile)
   Parsing headers for BookPracticeEditor
     Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BookPracticeEditor in 5.1056196 seconds
+  Reflection code generated for BookPracticeEditor in 5.0806758 seconds
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0002.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0003.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0006.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0007.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0010.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0002.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0003.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0006.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0007.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0010.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0013.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0014.lib
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 16 actions with 12 processes...
-    [1/16] BookPractice.cpp
-    [2/16] ABGameMode.gen.cpp
-    [3/16] ABPlayerController.gen.cpp
-    [4/16] ABAnimInstance.gen.cpp
-    [5/16] ABCharacter.gen.cpp
-    [6/16] ABAnimInstance.cpp
-    [7/16] ABPlayerController.cpp
-    [8/16] Fountain.gen.cpp
-    [9/16] ABGameMode.cpp
-    [10/16] ABPawn.cpp
-    [11/16] ABPawn.gen.cpp
-    [12/16] ABCharacter.cpp
-    [13/16] Fountain.cpp
-    [14/16] UE4Editor-BookPractice-0014.lib
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0014.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0014.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [15/16] UE4Editor-BookPractice-0014.dll
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0014.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0014.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-ABCharacter.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) �ܺ� ��ȣ�� Ȯ���� �� �����ϴ�.
-ABCharacter.gen.cpp.obj : error LNK2001: "public: virtual void __cdecl AABCharacter::PostInitializeComponents(void)" (?PostInitializeComponents@AABCharacter@@UEAAXXZ) �ܺ� ��ȣ�� Ȯ���� �� �����ϴ�.
-ABCharacter.cpp.obj : error LNK2019: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) �ܺ� ��ȣ(���� ��ġ: "public: static void __cdecl AABCharacter::execOnAttackMontageEnded(class UObject *,struct FFrame &,void * const)" (?execOnAttackMontageEnded@AABCharacter@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) �Լ�)���� Ȯ������ ���߽��ϴ�.
-ABGameMode.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) �ܺ� ��ȣ�� Ȯ���� �� �����ϴ�.
-ABCharacter.gen.cpp.obj : error LNK2001: "private: void __cdecl AABCharacter::OnAttackMontageEnded(class UAnimMontage *,bool)" (?OnAttackMontageEnded@AABCharacter@@AEAAXPEAVUAnimMontage@@_N@Z) �ܺ� ��ȣ�� Ȯ���� �� �����ϴ�.
-C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-BookPractice-0014.dll : fatal error LNK1120: 2���� Ȯ���� �� ���� �ܺ� �����Դϴ�.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" BookPracticeEditor Win64 Development -Project="C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.
+  Building 4 actions with 12 processes...
+    [1/4] ABPawn.cpp
+    [2/4] UE4Editor-BookPractice.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-BookPractice.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] BookPracticeEditor.target
+  Total time in Parallel executor: 3.12 seconds
+  Total execution time: 9.82 seconds

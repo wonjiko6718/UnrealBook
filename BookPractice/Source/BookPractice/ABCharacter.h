@@ -39,6 +39,7 @@ public:
 	virtual void PostInitializeComponents() override;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		USpringArmComponent* SpringArm;
@@ -58,6 +59,7 @@ private:
 		void OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted);
 	void AttackStartComboState();
 	void AttackEndComboState();
+	void AttackCheck();
 private:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		bool IsAttacking;
@@ -71,4 +73,8 @@ private:
 		int32 CurrentCombo;
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		int32 MaxCombo;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRange;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRadius;
 };
