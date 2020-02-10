@@ -196,4 +196,6 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABCharacter.generated.h
 C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\ABAnimInstance.h
 C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABAnimInstance.generated.h
+C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\ABWeapon.h
+C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice\ABWeapon.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

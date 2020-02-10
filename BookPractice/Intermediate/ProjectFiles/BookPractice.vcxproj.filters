@@ -90,4 +90,20 @@
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BookPractice\ABWeapon.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\ABItemBox.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BookPractice\ABWeapon.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\ABItemBox.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
