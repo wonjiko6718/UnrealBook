@@ -108,4 +108,20 @@
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BookPractice\ABCharacterStatComponent.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\ABCharacterWidget.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BookPractice\ABCharacterStatComponent.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\ABCharacterWidget.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
