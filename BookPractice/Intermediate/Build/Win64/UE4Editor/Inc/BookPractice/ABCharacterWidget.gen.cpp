@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 	BOOKPRACTICE_API UClass* Z_Construct_UClass_UABCharacterWidget();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_BookPractice();
+	UMG_API UClass* Z_Construct_UClass_UProgressBar_NoRegister();
 // End Cross Module References
 	void UABCharacterWidget::StaticRegisterNativesUABCharacterWidget()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPProgressBar_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPProgressBar;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 		{ "ModuleRelativePath", "ABCharacterWidget.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ABCharacterWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar = { "HPProgressBar", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABCharacterWidget, HPProgressBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar_MetaData, ARRAY_COUNT(Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UABCharacterWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABCharacterWidget_Statics::NewProp_HPProgressBar,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UABCharacterWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UABCharacterWidget>::IsAbstract,
 	};
@@ -53,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UABCharacterWidget_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_UABCharacterWidget_Statics::PropPointers),
 		0,
 		0x00B010A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UABCharacterWidget_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UABCharacterWidget_Statics::Class_MetaDataParams))
@@ -71,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABCharacterWidget, 2485579434);
+	IMPLEMENT_CLASS(UABCharacterWidget, 1040892738);
 	template<> BOOKPRACTICE_API UClass* StaticClass<UABCharacterWidget>()
 	{
 		return UABCharacterWidget::StaticClass();

@@ -243,6 +243,11 @@ void AABCharacter::PostInitializeComponents()
 		ABAnim->SetDeadAnim();
 		SetActorEnableCollision(false);
 		});
+	auto CharacterWidget = Cast<UABCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+	if (nullptr != CharacterWidget)
+	{
+		CharacterWidget->BindCharacterStat(CharacterStat);
+	}
 }
 void AABCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted)
 {

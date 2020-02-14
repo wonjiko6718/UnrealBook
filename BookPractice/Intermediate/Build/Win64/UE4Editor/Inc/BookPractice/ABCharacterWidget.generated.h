@@ -59,7 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABCharacterWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABCharacterWidget)
 
 
-#define BookPractice_Source_BookPractice_ABCharacterWidget_h_15_PRIVATE_PROPERTY_OFFSET
+#define BookPractice_Source_BookPractice_ABCharacterWidget_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HPProgressBar() { return STRUCT_OFFSET(UABCharacterWidget, HPProgressBar); }
+
+
 #define BookPractice_Source_BookPractice_ABCharacterWidget_h_12_PROLOG
 #define BookPractice_Source_BookPractice_ABCharacterWidget_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
