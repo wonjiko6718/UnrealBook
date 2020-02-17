@@ -14,7 +14,7 @@ class UAnimMontage;
 #endif
 #define BOOKPRACTICE_ABCharacter_generated_h
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
@@ -27,7 +27,7 @@ class UAnimMontage;
 	}
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
@@ -40,7 +40,7 @@ class UAnimMontage;
 	}
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAABCharacter(); \
 	friend struct Z_Construct_UClass_AABCharacter_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(AABCharacter)
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_INCLASS \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAABCharacter(); \
 	friend struct Z_Construct_UClass_AABCharacter_Statics; \
@@ -58,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(AABCharacter)
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AABCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AABCharacter) \
@@ -71,7 +71,7 @@ private: \
 public:
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AABCharacter(AABCharacter&&); \
@@ -82,7 +82,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AABCharacter)
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AABCharacter, IsAttacking); } \
 	FORCEINLINE static uint32 __PPO__ABAnim() { return STRUCT_OFFSET(AABCharacter, ABAnim); } \
 	FORCEINLINE static uint32 __PPO__CanNextCombo() { return STRUCT_OFFSET(AABCharacter, CanNextCombo); } \
@@ -93,25 +93,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABCharacter); \
 	FORCEINLINE static uint32 __PPO__AttackRadius() { return STRUCT_OFFSET(AABCharacter, AttackRadius); }
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_9_PROLOG
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_GENERATED_BODY_LEGACY \
+#define BookPractice_Source_BookPractice_ABCharacter_h_11_PROLOG
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_INCLASS \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_STANDARD_CONSTRUCTORS \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_RPC_WRAPPERS \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_INCLASS \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BookPractice_Source_BookPractice_ABCharacter_h_12_GENERATED_BODY \
+#define BookPractice_Source_BookPractice_ABCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	BookPractice_Source_BookPractice_ABCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	BookPractice_Source_BookPractice_ABCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

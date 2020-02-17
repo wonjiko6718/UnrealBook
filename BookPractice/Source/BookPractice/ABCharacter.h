@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ABCharacter.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
+
 UCLASS()
 class BOOKPRACTICE_API AABCharacter : public ACharacter
 {
@@ -21,7 +23,7 @@ protected:
 
 	enum class EControlMode
 	{
-		GTA,DIABLO
+		GTA,DIABLO,NPC
 	};
 
 	void SetControlMode(EControlMode NewControlMode);
@@ -40,6 +42,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+	virtual void PossessedBy(AController* NewController)override;
 	bool CanSetWeapon();
 	void SetWeapon(class AABWeapon* NewWeapon);
 
@@ -56,6 +59,8 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = UI)
 		class UWidgetComponent* HPBarWidget;
 
+	void Attack();
+	FOnAttackEndDelegate OnAttackEnd;
 private:
 	void UpDown(float NewAxisValue);
 	void LeftRight(float NewAxisValue);
@@ -63,7 +68,6 @@ private:
 	void Turn(float NewAxisValue);
 
 	void ViewChange();
-	void Attack();
 
 	UFUNCTION()
 		void OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted);

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BookPractice.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B7727C35-34F6-4E26-BF61-8C2E2E47F375}</UniqueIdentifier>
+      <UniqueIdentifier>{66194B68-B043-4954-BD5F-03A2D2566842}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0DA24860-7DA3-4D18-9AA4-9FB20175171D}</UniqueIdentifier>
+      <UniqueIdentifier>{BDE89812-CB3F-476A-882B-184A5817540C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BookPractice">
-      <UniqueIdentifier>{8504BF3B-7AC9-4D02-AB4D-4D3CA0F79916}</UniqueIdentifier>
+      <UniqueIdentifier>{E4924E65-2660-4AAC-ACF8-0601108EF0C4}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BookPractice\ABAIController.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABAIController.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BookPractice\ABAnimInstance.cpp">
       <Filter>Source\BookPractice</Filter>
     </ClCompile>
@@ -42,6 +48,18 @@
       <Filter>Source\BookPractice</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BookPractice\ABCharacter.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\ABCharacterStatComponent.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABCharacterStatComponent.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BookPractice\ABCharacterWidget.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BookPractice\ABCharacterWidget.h">
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BookPractice\ABGameInstance.cpp">
@@ -109,18 +127,36 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\BookPractice\ABCharacterStatComponent.h">
+    <ClInclude Include="..\..\Source\BookPractice\BTTask_FindPatrolPos.h">
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\BookPractice\ABCharacterWidget.h">
+    <ClInclude Include="..\..\Source\BookPractice\BTService_Detect.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\BTTask_Attack.h">
+      <Filter>Source\BookPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\BTTask_TurnToTarget.h">
       <Filter>Source\BookPractice</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\BookPractice\ABCharacterStatComponent.cpp">
+    <ClCompile Include="..\..\Source\BookPractice\BTTask_FindPatrolPos.cpp">
       <Filter>Source\BookPractice</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BookPractice\ABCharacterWidget.cpp">
+    <ClCompile Include="..\..\Source\BookPractice\BTService_Detect.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\BTTask_Attack.cpp">
+      <Filter>Source\BookPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\BTTask_TurnToTarget.cpp">
       <Filter>Source\BookPractice</Filter>
     </ClCompile>
   </ItemGroup>

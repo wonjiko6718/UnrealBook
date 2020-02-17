@@ -372,15 +372,17 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\BookPractice\ABAIController.cpp" />
+    <ClInclude Include="..\..\Source\BookPractice\ABAIController.h" />
     <ClCompile Include="..\..\Source\BookPractice\ABAnimInstance.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\ABAnimInstance.h" />
     <ClCompile Include="..\..\Source\BookPractice\ABCharacter.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\ABCharacter.h" />
     <ClCompile Include="..\..\Source\BookPractice\ABCharacterStatComponent.cpp" />
-    <ClCompile Include="..\..\Source\BookPractice\ABCharacterWidget.cpp" />
-    <ClCompile Include="..\..\Source\BookPractice\ABGameInstance.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\ABCharacterStatComponent.h" />
+    <ClCompile Include="..\..\Source\BookPractice\ABCharacterWidget.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\ABCharacterWidget.h" />
+    <ClCompile Include="..\..\Source\BookPractice\ABGameInstance.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\ABGameInstance.h" />
     <ClCompile Include="..\..\Source\BookPractice\ABGameMode.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\ABGameMode.h" />
@@ -399,7 +401,17 @@
     <ClInclude Include="..\..\Source\BookPractice\BookPracticeCharacter.h" />
     <ClCompile Include="..\..\Source\BookPractice\BookPracticeGameMode.cpp" />
     <ClInclude Include="..\..\Source\BookPractice\BookPracticeGameMode.h" />
+    <ClCompile Include="..\..\Source\BookPractice\BTDecorator_IsInAttackRange.cpp" />
+    <ClCompile Include="..\..\Source\BookPractice\BTService_Detect.cpp" />
+    <ClCompile Include="..\..\Source\BookPractice\BTTask_Attack.cpp" />
+    <ClCompile Include="..\..\Source\BookPractice\BTTask_FindPatrolPos.cpp" />
+    <ClCompile Include="..\..\Source\BookPractice\BTTask_TurnToTarget.cpp" />
     <ClCompile Include="..\..\Source\BookPractice\Fountain.cpp" />
+    <ClInclude Include="..\..\Source\BookPractice\BTDecorator_IsInAttackRange.h" />
+    <ClInclude Include="..\..\Source\BookPractice\BTService_Detect.h" />
+    <ClInclude Include="..\..\Source\BookPractice\BTTask_Attack.h" />
+    <ClInclude Include="..\..\Source\BookPractice\BTTask_FindPatrolPos.h" />
+    <ClInclude Include="..\..\Source\BookPractice\BTTask_TurnToTarget.h" />
     <ClInclude Include="..\..\Source\BookPractice\Fountain.h" />
   </ItemGroup>
   <PropertyGroup>

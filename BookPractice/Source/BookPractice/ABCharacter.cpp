@@ -8,6 +8,7 @@
 #include "DrawDebugHelpers.h"
 #include "Components/WidgetComponent.h"
 #include "ABCharacterWidget.h"
+#include "ABAIController.h"
 // Sets default values
 AABCharacter::AABCharacter()
 {
@@ -16,6 +17,8 @@ AABCharacter::AABCharacter()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
 
+	AIControllerClass = AABAIController::StaticClass();
+	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 	SpringArm->SetupAttachment(GetCapsuleComponent());
 	Camera->SetupAttachment(SpringArm);
 	CharacterStat = CreateDefaultSubobject<UABCharacterStatComponent>(TEXT("CHARACTERSTAT"));
@@ -185,6 +188,12 @@ void AABCharacter::SetControlMode(EControlMode NewControlMode)
 		GetCharacterMovement()->bUseControllerDesiredRotation = true;
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
+	case EControlMode::NPC:
+		bUseControllerRotationYaw = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 480.0f, 0.0f);
+		break;
 	}
 }
 void AABCharacter::ViewChange()
@@ -255,6 +264,7 @@ void AABCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted
 	ABCHECK(CurrentCombo > 0);
 	IsAttacking = false;
 	AttackEndComboState();
+	OnAttackEnd.Broadcast();
 }
 void AABCharacter::AttackStartComboState()
 {
@@ -329,5 +339,19 @@ void AABCharacter::SetWeapon(AABWeapon* NewWeapon)
 		NewWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
 		NewWeapon->SetOwner(this);
 		CurrentWeapon = NewWeapon;
+	}
+}
+void AABCharacter::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+	if (IsPlayerControlled())
+	{
+		SetControlMode(EControlMode::DIABLO);
+		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	}
+	else
+	{
+		SetControlMode(EControlMode::NPC);
+		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
 	}
 }
