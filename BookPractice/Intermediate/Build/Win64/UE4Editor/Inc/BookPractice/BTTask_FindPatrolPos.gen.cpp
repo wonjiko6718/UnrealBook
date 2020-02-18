@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/BTTask_FindPatrolPos.h"
+#include "BookPractice/public/BTTask_FindPatrolPos.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_FindPatrolPos_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "BTTask_FindPatrolPos.h" },
-		{ "ModuleRelativePath", "BTTask_FindPatrolPos.h" },
+		{ "ModuleRelativePath", "public/BTTask_FindPatrolPos.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_FindPatrolPos_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 1216483458);
+	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 251601440);
 	template<> BOOKPRACTICE_API UClass* StaticClass<UBTTask_FindPatrolPos>()
 	{
 		return UBTTask_FindPatrolPos::StaticClass();

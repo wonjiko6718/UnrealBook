@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/ABGameMode.h"
+#include "BookPractice/public/ABGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ABGameMode.h" },
-		{ "ModuleRelativePath", "ABGameMode.h" },
+		{ "ModuleRelativePath", "public/ABGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABGameMode, 3094329942);
+	IMPLEMENT_CLASS(AABGameMode, 4110262049);
 	template<> BOOKPRACTICE_API UClass* StaticClass<AABGameMode>()
 	{
 		return AABGameMode::StaticClass();

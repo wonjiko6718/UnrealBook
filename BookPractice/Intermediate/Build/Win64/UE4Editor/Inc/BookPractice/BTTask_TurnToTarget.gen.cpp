@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/BTTask_TurnToTarget.h"
+#include "BookPractice/public/BTTask_TurnToTarget.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_TurnToTarget_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "BTTask_TurnToTarget.h" },
-		{ "ModuleRelativePath", "BTTask_TurnToTarget.h" },
+		{ "ModuleRelativePath", "public/BTTask_TurnToTarget.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_TurnToTarget_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_TurnToTarget, 1370500619);
+	IMPLEMENT_CLASS(UBTTask_TurnToTarget, 3904597216);
 	template<> BOOKPRACTICE_API UClass* StaticClass<UBTTask_TurnToTarget>()
 	{
 		return UBTTask_TurnToTarget::StaticClass();

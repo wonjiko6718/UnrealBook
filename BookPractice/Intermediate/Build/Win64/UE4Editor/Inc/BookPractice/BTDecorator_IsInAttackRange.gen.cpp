@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/BTDecorator_IsInAttackRange.h"
+#include "BookPractice/public/BTDecorator_IsInAttackRange.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeBTDecorator_IsInAttackRange() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTDecorator_IsInAttackRange_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "BTDecorator_IsInAttackRange.h" },
-		{ "ModuleRelativePath", "BTDecorator_IsInAttackRange.h" },
+		{ "ModuleRelativePath", "public/BTDecorator_IsInAttackRange.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTDecorator_IsInAttackRange_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBTDecorator_IsInAttackRange() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTDecorator_IsInAttackRange, 685959685);
+	IMPLEMENT_CLASS(UBTDecorator_IsInAttackRange, 2587323134);
 	template<> BOOKPRACTICE_API UClass* StaticClass<UBTDecorator_IsInAttackRange>()
 	{
 		return UBTDecorator_IsInAttackRange::StaticClass();

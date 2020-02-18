@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/ABItemBox.h"
+#include "BookPractice/public/ABItemBox.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -105,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABItemBox_OnCharacterOverlap_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AABItemBox_OnCharacterOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AABItemBox, nullptr, "OnCharacterOverlap", sizeof(ABItemBox_eventOnCharacterOverlap_Parms), Z_Construct_UFunction_AABItemBox_OnCharacterOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AABItemBox_OnCharacterOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00440401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AABItemBox_OnCharacterOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AABItemBox_OnCharacterOverlap_Statics::Function_MetaDataParams)) };
@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AABItemBox_OnEffectFinished_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AABItemBox_OnEffectFinished_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AABItemBox, nullptr, "OnEffectFinished", sizeof(ABItemBox_eventOnEffectFinished_Parms), Z_Construct_UFunction_AABItemBox_OnEffectFinished_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AABItemBox_OnEffectFinished_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AABItemBox_OnEffectFinished_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AABItemBox_OnEffectFinished_Statics::Function_MetaDataParams)) };
@@ -194,27 +194,27 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BookPractice,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AABItemBox_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AABItemBox_OnCharacterOverlap, "OnCharacterOverlap" }, // 2143602487
-		{ &Z_Construct_UFunction_AABItemBox_OnEffectFinished, "OnEffectFinished" }, // 2082839979
+		{ &Z_Construct_UFunction_AABItemBox_OnCharacterOverlap, "OnCharacterOverlap" }, // 4220341010
+		{ &Z_Construct_UFunction_AABItemBox_OnEffectFinished, "OnEffectFinished" }, // 3679071488
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "ABItemBox.h" },
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect_MetaData[] = {
 		{ "Category", "Effect" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect = { "Effect", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABItemBox, Effect), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_Effect_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::NewProp_WeaponItemClass_MetaData[] = {
 		{ "Category", "Box" },
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_WeaponItemClass = { "WeaponItemClass", nullptr, (EPropertyFlags)0x0014000000000801, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABItemBox, WeaponItemClass), Z_Construct_UClass_AABWeapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AABItemBox_Statics::NewProp_WeaponItemClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_WeaponItemClass_MetaData)) };
@@ -222,7 +222,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::NewProp_Box_MetaData[] = {
 		{ "Category", "Box" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_Box = { "Box", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABItemBox, Box), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABItemBox_Statics::NewProp_Box_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_Box_MetaData)) };
@@ -230,7 +230,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABItemBox_Statics::NewProp_Trigger_MetaData[] = {
 		{ "Category", "Box" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ABItemBox.h" },
+		{ "ModuleRelativePath", "public/ABItemBox.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABItemBox_Statics::NewProp_Trigger = { "Trigger", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABItemBox, Trigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABItemBox_Statics::NewProp_Trigger_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABItemBox_Statics::NewProp_Trigger_MetaData)) };
@@ -267,7 +267,7 @@ void EmptyLinkFunctionForGeneratedCodeABItemBox() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABItemBox, 693629294);
+	IMPLEMENT_CLASS(AABItemBox, 1978442154);
 	template<> BOOKPRACTICE_API UClass* StaticClass<AABItemBox>()
 	{
 		return AABItemBox::StaticClass();

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BookPractice.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{66194B68-B043-4954-BD5F-03A2D2566842}</UniqueIdentifier>
+      <UniqueIdentifier>{24A3BE5E-E1A7-4F76-B972-81AED1A98555}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BDE89812-CB3F-476A-882B-184A5817540C}</UniqueIdentifier>
+      <UniqueIdentifier>{13B1533D-3E7A-42A3-BF9C-07F67818DF68}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,134 +30,136 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BookPractice">
-      <UniqueIdentifier>{E4924E65-2660-4AAC-ACF8-0601108EF0C4}</UniqueIdentifier>
+      <UniqueIdentifier>{28EC7C30-7D85-486B-B9B6-B804E10D36E7}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\BookPractice\ABAIController.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABAIController.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABAnimInstance.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABAnimInstance.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABCharacter.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABCharacter.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABCharacterStatComponent.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABCharacterStatComponent.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABCharacterWidget.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABCharacterWidget.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABGameInstance.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABGameInstance.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABGameMode.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABGameMode.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABItemBox.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABItemBox.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABPawn.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABPawn.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABPlayerController.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABPlayerController.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\ABWeapon.cpp">
-      <Filter>Source\BookPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\ABWeapon.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
     <None Include="..\..\Source\BookPractice\BookPractice.Build.cs">
       <Filter>Source\BookPractice</Filter>
     </None>
-    <ClCompile Include="..\..\Source\BookPractice\BookPractice.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <Filter Include="Source\BookPractice\private">
+      <UniqueIdentifier>{D2E6BCBC-5EE0-4B17-9CAE-A1B793D74DE8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABAIController.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\BookPractice.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\BookPracticeCharacter.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABAnimInstance.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\BookPracticeCharacter.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\BookPracticeGameMode.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABCharacter.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\BookPracticeGameMode.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BookPractice\Fountain.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABCharacterStatComponent.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BookPractice\Fountain.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BookPractice\BTTask_FindPatrolPos.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BookPractice\BTService_Detect.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BookPractice\BTDecorator_IsInAttackRange.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BookPractice\BTTask_Attack.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BookPractice\BTTask_TurnToTarget.h">
-      <Filter>Source\BookPractice</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BookPractice\BTTask_FindPatrolPos.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABCharacterWidget.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BookPractice\BTService_Detect.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABGameInstance.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BookPractice\BTDecorator_IsInAttackRange.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABGameMode.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BookPractice\BTTask_Attack.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABItemBox.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\BookPractice\BTTask_TurnToTarget.cpp">
-      <Filter>Source\BookPractice</Filter>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABPawn.cpp">
+      <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABPlayerController.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABWeapon.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BookPractice.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BookPracticeCharacter.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BookPracticeGameMode.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BTService_Detect.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BTTask_Attack.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\BTTask_TurnToTarget.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\Fountain.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BookPractice\public">
+      <UniqueIdentifier>{AF196242-E42E-4BAC-B533-828A0E0EE7AB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABAIController.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABAnimInstance.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABCharacter.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABCharacterStatComponent.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABCharacterWidget.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABGameInstance.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABGameMode.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABItemBox.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABPawn.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABPlayerController.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABWeapon.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BookPractice.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BookPracticeCharacter.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BookPracticeGameMode.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BTService_Detect.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BTTask_Attack.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BTTask_FindPatrolPos.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\BTTask_TurnToTarget.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\Fountain.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

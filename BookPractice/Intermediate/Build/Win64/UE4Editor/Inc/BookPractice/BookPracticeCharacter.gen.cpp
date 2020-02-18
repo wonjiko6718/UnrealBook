@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/BookPracticeCharacter.h"
+#include "BookPractice/public/BookPracticeCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -61,13 +61,13 @@ void EmptyLinkFunctionForGeneratedCodeBookPracticeCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABookPracticeCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "BookPracticeCharacter.h" },
-		{ "ModuleRelativePath", "BookPracticeCharacter.h" },
+		{ "ModuleRelativePath", "public/BookPracticeCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABookPracticeCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "BookPracticeCharacter.h" },
+		{ "ModuleRelativePath", "public/BookPracticeCharacter.h" },
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
 	};
 #endif
@@ -75,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeBookPracticeCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABookPracticeCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "BookPracticeCharacter.h" },
+		{ "ModuleRelativePath", "public/BookPracticeCharacter.h" },
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
 	};
 #endif
@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeBookPracticeCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BookPracticeCharacter.h" },
+		{ "ModuleRelativePath", "public/BookPracticeCharacter.h" },
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeBookPracticeCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BookPracticeCharacter.h" },
+		{ "ModuleRelativePath", "public/BookPracticeCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
@@ -133,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeBookPracticeCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABookPracticeCharacter, 15340553);
+	IMPLEMENT_CLASS(ABookPracticeCharacter, 3812634722);
 	template<> BOOKPRACTICE_API UClass* StaticClass<ABookPracticeCharacter>()
 	{
 		return ABookPracticeCharacter::StaticClass();

@@ -1618,3 +1618,159 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.18-19.38.42:776][175]LogSlate: Window 'BT_ABCharacter' being destroyed
 [2020.02.18-19.38.42:782][175]LogSlate: Window 'BT_ABCharacter' being destroyed
 [2020.02.18-19.38.44:291][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.18-19.39.39:586][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.18-19.39.39:653][560]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.02.18-19.39.39:669][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step3.step3_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3'
+[2020.02.18-19.39.39:669][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-19.39.39:669][560]PIE: New page: PIE 세션: step3 (2020. 2. 19. 오후 1:39:39)
+[2020.02.18-19.39.39:669][560]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step3
+[2020.02.18-19.39.39:674][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004469s)
+[2020.02.18-19.39.39:674][560]LogAIModule: Creating AISystem for world step3
+[2020.02.18-19.39.39:675][560]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2020.02.18-19.39.39:675][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/step3.step3 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_step3.step3 (0.005133s)
+[2020.02.18-19.39.39:703][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.02.18-19.39.39:703][560]BookPractice: Warning: UABGameInstance::Init(17)DropExp of Level 20 ABCharacter : 105
+[2020.02.18-19.39.39:710][560]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.18-19.39.39:723][560]LogInit: FAudioDevice initialized.
+[2020.02.18-19.39.39:749][560]LogLoad: Game class is 'ABGameMode'
+[2020.02.18-19.39.39:751][560]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_step3.step3 up for play (max tick rate 60) at 2020.02.19-04.39.39
+[2020.02.18-19.39.39:751][560]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.18-19.39.39:752][560]LogWorld: Bringing up level for play took: 0.002189
+[2020.02.18-19.39.39:764][560]BookPractice: Warning: AABPlayerController::PostInitializeComponents(9)
+[2020.02.18-19.39.39:764][560]BookPractice: Warning: AABGameMode::PostLogin(14)PostLogin Begin
+[2020.02.18-19.39.39:765][560]BookPractice: Warning: AABPlayerController::OnPossess(13)
+[2020.02.18-19.39.39:765][560]BookPractice: Warning: AABGameMode::PostLogin(16)PostLogin End
+[2020.02.18-19.39.39:765][560]BookPractice: Warning: AFountain::BeginPlay(52)
+[2020.02.18-19.39.39:765][560]BookPractice: Warning: AFountain::BeginPlay(53)ActorName : Fountain1, ID : 0, Location X : 100.000
+[2020.02.18-19.39.39:766][560]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_step3 에 대한 에디터에서 플레이 시작 시간: -0.511
+[2020.02.18-19.39.39:766][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step3.step3_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3'
+[2020.02.18-19.39.41:391][657]BookPractice: Warning: AABItemBox::OnCharacterOverlap(61)
+[2020.02.18-19.40.21:316][ 51]BookPractice: Warning: AABCharacter::PostInitializeComponents::<lambda_d0a15e1897cb382c68378448fa8ffe17>::operator ()(240)ONNextAttackCheck
+[2020.02.18-19.40.21:666][ 72]BookPractice: Warning: AABCharacter::PostInitializeComponents::<lambda_d0a15e1897cb382c68378448fa8ffe17>::operator ()(240)ONNextAttackCheck
+[2020.02.18-19.40.21:701][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step3.step3_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3'
+[2020.02.18-19.40.21:701][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.18-19.40.21:701][ 74]BookPractice: Warning: AFountain::EndPlay(67)
+[2020.02.18-19.40.21:732][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.18-19.40.21:732][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3' with GeneratedClass '/Game/ThirdPersonCPP/Maps/step3.step3_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.step3'
+[2020.02.18-19.40.21:759][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.18-19.40.21:761][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.02.18-19.40.21:811][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.02.18-19.54.05:494][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.18-19.57.36:578][996]Candidate modules for hot reload:
+[2020.02.18-19.57.36:578][996]  BookPractice
+[2020.02.18-19.57.36:578][996]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BookPractice,6891 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UnrealBook/BookPractice/BookPractice.uproject"  -IgnoreJunk]
+[2020.02.18-19.57.36:582][996]Warning: Starting HotReload took  0.0s.
+[2020.02.18-19.58.31:357][257]CompilerResultsLog: New page: 컴파일 - 2020. 2. 19. 오후 1:58:31
+[2020.02.18-19.58.31:358][257]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
+[2020.02.18-19.58.31:358][257]CompilerResultsLog: Creating makefile for BookPracticeEditor (no existing makefile)
+[2020.02.18-19.58.31:358][257]CompilerResultsLog: Parsing headers for BookPracticeEditor
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.18-19.58.31:358][257]CompilerResultsLog: Reflection code generated for BookPracticeEditor in 20.2225192 seconds
+[2020.02.18-19.58.31:358][257]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.18-19.58.31:358][257]CompilerResultsLog: Building 43 actions with 12 processes...
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [1/43] BookPracticeCharacter.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [2/43] BookPracticeGameMode.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [3/43] BookPractice.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [4/43] ABCharacterStatComponent.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [5/43] ABWeapon.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [6/43] ABGameInstance.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [7/43] Fountain.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [8/43] ABGameMode.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [9/43] ABPawn.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [10/43] ABItemBox.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [11/43] ABCharacterStatComponent.gen.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [12/43] BookPracticeCharacter.gen.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [13/43] ABPlayerController.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [14/43] ABAnimInstance.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [15/43] ABCharacterWidget.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [16/43] ABGameInstance.gen.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [17/43] ABCharacter.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [18/43] ABGameMode.gen.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [19/43] BTTask_Attack.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [20/43] BookPractice.init.gen.cpp
+[2020.02.18-19.58.31:358][257]CompilerResultsLog:   [21/43] BTTask_TurnToTarget.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [22/43] ABAIController.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [23/43] BTDecorator_IsInAttackRange.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [24/43] BTService_Detect.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [25/43] BTTask_FindPatrolPos.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [26/43] BookPracticeGameMode.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [27/43] BTTask_FindPatrolPos.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [28/43] ABItemBox.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [29/43] ABPawn.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [30/43] ABPlayerController.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [31/43] ABWeapon.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [32/43] ABAnimInstance.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [33/43] Fountain.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [34/43] BTService_Detect.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [35/43] BTDecorator_IsInAttackRange.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [36/43] BTTask_Attack.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [37/43] BTTask_TurnToTarget.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [38/43] ABCharacter.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [39/43] ABAIController.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [40/43] ABCharacterWidget.gen.cpp
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [41/43] UE4Editor-BookPractice-6891.lib
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-6891.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-6891.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [42/43] UE4Editor-BookPractice-6891.dll
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-6891.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-6891.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.02.18-19.58.31:359][257]CompilerResultsLog:   [43/43] BookPracticeEditor.target
+[2020.02.18-19.58.31:359][257]CompilerResultsLog: Total time in Parallel executor: 31.64 seconds
+[2020.02.18-19.58.31:359][257]CompilerResultsLog: Total execution time: 54.70 seconds
+[2020.02.18-19.58.31:359][257]LogMainFrame: MainFrame: Module compiling took 54.785 seconds
+[2020.02.18-19.58.31:383][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABAIController in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABAnimInstance in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:411][257]LogClass: Function AnimNotify_AttackHitCheck is new.
+[2020.02.18-19.58.31:411][257]LogClass: Function AnimNotify_NextAttackCheck is new.
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABCharacter in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:411][257]LogClass: Function OnAttackMontageEnded is new.
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABCharacterStatComponent in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABCharacterWidget in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABGameInstance in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:411][257]LogClass: Could not find existing class ABGameMode in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class ABItemBox in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Function OnCharacterOverlap is new.
+[2020.02.18-19.58.31:412][257]LogClass: Function OnEffectFinished is new.
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class ABPawn in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class ABPlayerController in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class ABWeapon in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BookPracticeCharacter in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BookPracticeGameMode in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BTDecorator_IsInAttackRange in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BTService_Detect in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BTTask_Attack in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BTTask_FindPatrolPos in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class BTTask_TurnToTarget in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:412][257]LogClass: Could not find existing class Fountain in package /Script/BookPractice for HotReload, assuming new class
+[2020.02.18-19.58.31:417][257]LogHotReload: Re-instancing ABAIController after hot-reload.
+[2020.02.18-19.58.31:494][257]LogHotReload: Re-instancing ABAnimInstance after hot-reload.
+[2020.02.18-19.58.31:630][257]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.02.18-19.58.31:632][257]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ABCharacterStatComponent_3 for a property of Class /Script/BookPractice.ABCharacterStatComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/BookPractice.ABCharacter:CharacterStat
+    Item = HOTRELOADED_ABCharacterStatComponent_3 /Game/ThirdPersonCPP/Maps/step3.step3:PersistentLevel.HOTRELOADED_ABCharacter_0.CHARACTERSTAT
+[2020.02.18-19.58.31:634][257]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ABCharacterStatComponent_3 for a property of Class /Script/BookPractice.ABCharacterStatComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/BookPractice.ABCharacter:CharacterStat
+    Item = HOTRELOADED_ABCharacterStatComponent_3 /Engine/Transient.World_4:PersistentLevel.HOTRELOADED_ABCharacter_1.CHARACTERSTAT
+[2020.02.18-19.58.31:700][257]LogHotReload: Re-instancing ABCharacterStatComponent after hot-reload.
+[2020.02.18-19.58.31:767][257]LogHotReload: Re-instancing ABCharacterWidget after hot-reload.
+[2020.02.18-19.58.31:927][257]LogHotReload: Re-instancing ABGameInstance after hot-reload.
+[2020.02.18-19.58.31:995][257]LogHotReload: Re-instancing ABGameMode after hot-reload.
+[2020.02.18-19.58.32:077][257]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.02.18-19.58.32:151][257]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.02.18-19.58.32:226][257]LogHotReload: Re-instancing ABPlayerController after hot-reload.
+[2020.02.18-19.58.32:291][257]LogHotReload: Re-instancing ABWeapon after hot-reload.
+[2020.02.18-19.58.32:433][257]LogHotReload: Re-instancing BookPracticeCharacter after hot-reload.
+[2020.02.18-19.58.32:575][257]LogHotReload: Re-instancing BookPracticeGameMode after hot-reload.
+[2020.02.18-19.58.32:645][257]LogHotReload: Re-instancing BTDecorator_IsInAttackRange after hot-reload.
+[2020.02.18-19.58.32:736][257]LogHotReload: Re-instancing BTService_Detect after hot-reload.
+[2020.02.18-19.58.32:818][257]LogHotReload: Re-instancing BTTask_Attack after hot-reload.
+[2020.02.18-19.58.32:889][257]LogHotReload: Re-instancing BTTask_FindPatrolPos after hot-reload.
+[2020.02.18-19.58.32:959][257]LogHotReload: Re-instancing BTTask_TurnToTarget after hot-reload.
+[2020.02.18-19.58.33:034][257]LogHotReload: Re-instancing Fountain after hot-reload.
+[2020.02.18-19.58.33:141][257]LogContentBrowser: Native class hierarchy updated for 'BookPractice' in 0.0005 seconds. Added 19 classes and 3 folders.
+[2020.02.18-19.58.33:143][257]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2020.02.18-19.58.33:169][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.02.18-19.58.33:182][257]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2752 classes and 664 folders.
+[2020.02.18-19.58.33:182][257]Display: HotReload took 56.6s.
+[2020.02.18-19.58.34:586][341]BookPractice: Warning: AFountain::PostInitializeComponents(72)
+[2020.02.18-19.58.34:587][341]BookPractice: Warning: AABPawn::PostInitializeComponents(75)
+[2020.02.18-19.58.34:603][342]BookPractice: Error: UABCharacterStatComponent::SetNewLevel(43)ASSERTION: 'nullptr != ABGameInstance'

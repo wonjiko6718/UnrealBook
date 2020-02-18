@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BookPractice/BTTask_Attack.h"
+#include "BookPractice/public/BTTask_Attack.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_Attack() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_Attack_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "BTTask_Attack.h" },
-		{ "ModuleRelativePath", "BTTask_Attack.h" },
+		{ "ModuleRelativePath", "public/BTTask_Attack.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_Attack_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_Attack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_Attack, 2799474462);
+	IMPLEMENT_CLASS(UBTTask_Attack, 3455200546);
 	template<> BOOKPRACTICE_API UClass* StaticClass<UBTTask_Attack>()
 	{
 		return UBTTask_Attack::StaticClass();
