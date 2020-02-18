@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BookPractice.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{24A3BE5E-E1A7-4F76-B972-81AED1A98555}</UniqueIdentifier>
+      <UniqueIdentifier>{AD2E05ED-4D52-4354-B202-126EA4784284}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{13B1533D-3E7A-42A3-BF9C-07F67818DF68}</UniqueIdentifier>
+      <UniqueIdentifier>{6ED8A3A3-F29C-4FD1-A84D-F6114076D60B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,13 +30,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BookPractice">
-      <UniqueIdentifier>{28EC7C30-7D85-486B-B9B6-B804E10D36E7}</UniqueIdentifier>
+      <UniqueIdentifier>{00E3BD97-655D-49DB-AADB-16577ECF8F35}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice\BookPractice.Build.cs">
       <Filter>Source\BookPractice</Filter>
     </None>
     <Filter Include="Source\BookPractice\private">
-      <UniqueIdentifier>{D2E6BCBC-5EE0-4B17-9CAE-A1B793D74DE8}</UniqueIdentifier>
+      <UniqueIdentifier>{86819C9D-1B24-4B51-A3C0-E8A1768E4984}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BookPractice\private\ABAIController.cpp">
       <Filter>Source\BookPractice\private</Filter>
@@ -99,7 +99,7 @@
       <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
     <Filter Include="Source\BookPractice\public">
-      <UniqueIdentifier>{AF196242-E42E-4BAC-B533-828A0E0EE7AB}</UniqueIdentifier>
+      <UniqueIdentifier>{26D6659A-084B-47FF-95F2-3D903D1394E2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\BookPractice\public\ABAIController.h">
       <Filter>Source\BookPractice\public</Filter>
@@ -160,6 +160,30 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\BookPractice\public\Fountain.h">
       <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ArenaBattleSetting">
+      <UniqueIdentifier>{2292559C-4ED0-4B0C-8E49-81A5F088247A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArenaBattleSetting\ArenaBattleSetting.Build.cs">
+      <Filter>Source\ArenaBattleSetting</Filter>
+    </None>
+    <Filter Include="Source\ArenaBattleSetting\Private">
+      <UniqueIdentifier>{9017A82B-B865-4983-BB0C-8A040EFA02FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ABCharacterSetting.cpp">
+      <Filter>Source\ArenaBattleSetting\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ArenaBattleSetting.cpp">
+      <Filter>Source\ArenaBattleSetting\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ArenaBattleSetting\Public">
+      <UniqueIdentifier>{346ED35F-97B8-4819-9C8D-6ECC409AAEE0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ABCharacterSetting.h">
+      <Filter>Source\ArenaBattleSetting\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ArenaBattleSetting.h">
+      <Filter>Source\ArenaBattleSetting\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

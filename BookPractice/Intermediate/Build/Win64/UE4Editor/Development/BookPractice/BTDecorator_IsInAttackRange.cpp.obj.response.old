@@ -28,6 +28,7 @@
 /wd4838
 /we4668
 /I .
+/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -426,8 +427,12 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice
+/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting
 /I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source
+/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\ArenaBattleSetting\Public
+/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\ArenaBattleSetting
+/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Inc\BookPractice
+/I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\Public
 /I C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
@@ -440,7 +445,7 @@
 /FI"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\BTDecorator_IsInAttackRange.cpp"
+"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Source\BookPractice\private\BTDecorator_IsInAttackRange.cpp"
 /FI"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\Definitions.BookPractice.h"
 /Fo"C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\BTDecorator_IsInAttackRange.cpp.obj"
 /TP

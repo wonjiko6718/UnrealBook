@@ -8,6 +8,6 @@ public class BookPracticeEditorTarget : TargetRules
 	public BookPracticeEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		ExtraModuleNames.Add("BookPractice");
+		ExtraModuleNames.AddRange(new string[] { "BookPractice", "ArenaBattleSetting" });
 	}
 }

@@ -8,6 +8,6 @@ public class BookPracticeTarget : TargetRules
 	public BookPracticeTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		ExtraModuleNames.Add("BookPractice");
+		ExtraModuleNames.AddRange(new string[] { "BookPractice", "ArenaBattleSetting" });
 	}
 }
