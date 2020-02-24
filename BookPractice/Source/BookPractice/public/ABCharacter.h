@@ -68,6 +68,7 @@ private:
 	void Turn(float NewAxisValue);
 
 	void ViewChange();
+	void OnAssetLoadCompleted();
 
 	UFUNCTION()
 		void OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted);
@@ -91,4 +92,7 @@ private:
 		float AttackRange;
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		float AttackRadius;
+
+	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
+	TSharedPtr<struct FStreamableHandle> AssetStreamingHandle;
 };

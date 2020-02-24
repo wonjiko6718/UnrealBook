@@ -10,6 +10,7 @@
 #include "ABCharacterWidget.h"
 #include "ABAIController.h"
 #include "ABCharacterSetting.h"
+#include "ABGameInstance.h"
 // Sets default values
 AABCharacter::AABCharacter()
 {
@@ -65,7 +66,7 @@ AABCharacter::AABCharacter()
 	{
 		for (auto CharacterAsset : DefaultSetting->CharacterAssets)
 		{
-			ABLOG(Warning, TEXT("Character Asset : %s"), *CharacterAsset.ToString());
+			ABLOG(Warning, TEXT("CharacterAsset : %s"), *CharacterAsset.ToString());
 		}
 	}
 }
@@ -79,6 +80,21 @@ void AABCharacter::BeginPlay()
 	{
 		CharacterWidget->BindCharacterStat(CharacterStat);
 	}
+	/*
+	if (!IsPlayerControlled())
+	{
+		auto DefaultSetting = GetDefault<UABCharacterSetting>();
+		int32 RandIndex = FMath::RandRange(0, DefaultSetting->CharacterAssets.Num() - 1);
+
+		CharacterAssetToLoad = DefaultSetting->CharacterAssets[RandIndex]; // index bound Error
+
+		auto ABGameInstance = Cast<UABGameInstance>(GetGameInstance());
+		if (nullptr != ABGameInstance)
+		{
+			AssetStreamingHandle = ABGameInstance->StreamableManager.RequestAsyncLoad(CharacterAssetToLoad, FStreamableDelegate::CreateUObject(this, &AABCharacter::OnAssetLoadCompleted));
+		}
+	}
+	*/
 }
 
 // Called every frame
@@ -364,3 +380,14 @@ void AABCharacter::PossessedBy(AController* NewController)
 		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
 	}
 }
+/*
+void AABCharacter::OnAssetLoadCompleted()
+{
+	USkeletalMesh* AssetLoaded = Cast<USkeletalMesh>(AssetStreamingHandle->GetLoadedAsset());
+	AssetStreamingHandle.Reset();
+	if (nullptr != AssetLoaded)
+	{
+		GetMesh()->SetSkeletalMesh(AssetLoaded);
+	}
+}
+*/
