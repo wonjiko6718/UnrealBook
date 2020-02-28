@@ -1,19 +1,26 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UnrealBook).
-  Creating makefile for BookPracticeEditor (ini files are newer than makefile)
+  Creating makefile for BookPracticeEditor (.uproject file is newer)
   Parsing headers for BookPracticeEditor
     Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\BookPractice.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\BookPracticeEditor\Development\BookPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BookPracticeEditor in 5.2117571 seconds
+  Reflection code generated for BookPracticeEditor in 4.9882901 seconds
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-ArenaBattleSetting-0001.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Binaries\Win64\UE4Editor-ArenaBattleSetting-0002.dll
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0001.lib
+  Deleted hot-reload file: C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0002.lib
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] UE4Editor-ArenaBattleSetting-0080.lib
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0080.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0080.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [2/6] UE4Editor-ArenaBattleSetting-0080.dll
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0080.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting-0080.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/6] ABCharacter.cpp
-    [4/6] UE4Editor-BookPractice-0080.lib
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0080.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0080.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [5/6] UE4Editor-BookPractice-0080.dll
-       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0080.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice-0080.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [6/6] BookPracticeEditor.target
-  Total time in Parallel executor: 5.67 seconds
-  Total execution time: 12.78 seconds
+  Building 9 actions with 12 processes...
+    [1/9] UE4Editor-BookPractice.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [2/9] ArenaBattleSetting.cpp
+    [3/9] ArenaBattleSetting.init.gen.cpp
+    [4/9] ABCharacterSetting.cpp
+    [5/9] ABCharacterSetting.gen.cpp
+    [6/9] UE4Editor-ArenaBattleSetting.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [7/9] UE4Editor-ArenaBattleSetting.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\UE4Editor-ArenaBattleSetting.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [8/9] UE4Editor-BookPractice.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UnrealBook\BookPractice\Intermediate\Build\Win64\UE4Editor\Development\BookPractice\UE4Editor-BookPractice.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [9/9] BookPracticeEditor.target
+  Total time in Parallel executor: 1.49 seconds
+  Total execution time: 8.06 seconds

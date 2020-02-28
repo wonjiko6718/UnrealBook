@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(config=BookPractice)
+UCLASS(config=BookPractice) // config module bug_can't attach
 class ARENABATTLESETTING_API UABCharacterSetting : public UObject
 {
 	GENERATED_BODY()

@@ -61,6 +61,7 @@ AABCharacter::AABCharacter()
 		HPBarWidget->SetWidgetClass(UI_HUD.Class);
 		HPBarWidget->SetDrawSize(FVector2D(150.0f, 50.0f));
 	}
+
 	auto DefaultSetting = GetDefault<UABCharacterSetting>();
 	if (DefaultSetting->CharacterAssets.Num() > 0)
 	{
@@ -68,6 +69,10 @@ AABCharacter::AABCharacter()
 		{
 			ABLOG(Warning, TEXT("CharacterAsset : %s"), *CharacterAsset.ToString());
 		}
+	}
+	else
+	{
+		ABLOG(Warning, TEXT("CharacterAsset None"));
 	}
 }
 
@@ -80,7 +85,7 @@ void AABCharacter::BeginPlay()
 	{
 		CharacterWidget->BindCharacterStat(CharacterStat);
 	}
-	
+	/*
 	if (!IsPlayerControlled())
 	{
 		auto DefaultSetting = GetDefault<UABCharacterSetting>();
@@ -94,7 +99,7 @@ void AABCharacter::BeginPlay()
 			AssetStreamingHandle = ABGameInstance->StreamableManager.RequestAsyncLoad(CharacterAssetToLoad, FStreamableDelegate::CreateUObject(this, &AABCharacter::OnAssetLoadCompleted));
 		}
 	}
-	
+	*/
 }
 
 // Called every frame
@@ -380,7 +385,7 @@ void AABCharacter::PossessedBy(AController* NewController)
 		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
 	}
 }
-
+/*
 void AABCharacter::OnAssetLoadCompleted()
 {
 	USkeletalMesh* AssetLoaded = Cast<USkeletalMesh>(AssetStreamingHandle->GetLoadedAsset());
@@ -390,3 +395,4 @@ void AABCharacter::OnAssetLoadCompleted()
 		GetMesh()->SetSkeletalMesh(AssetLoaded);
 	}
 }
+*/

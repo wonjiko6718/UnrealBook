@@ -7,10 +7,7 @@
 		{
 			"Name": "ArenaBattleSetting",
 			"Type": "Runtime",
-			"LoadingPhase": "PreDefault",
-			"AdditionalDependencies": [
-				"CoreUObject"
-			]
+			"LoadingPhase": "PreDefault"
 		},
 		{
 			"Name": "BookPractice",

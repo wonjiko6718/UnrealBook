@@ -2,7 +2,7 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-		"ArenaBattleSetting": "UE4Editor-ArenaBattleSetting-0087.dll",
-		"BookPractice": "UE4Editor-BookPractice-4088.dll"
+		"ArenaBattleSetting": "UE4Editor-ArenaBattleSetting.dll",
+		"BookPractice": "UE4Editor-BookPractice-7077.dll"
 	}
 }
