@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BookPractice.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9989EA30-A396-45EF-B6F8-2405C5CF50E0}</UniqueIdentifier>
+      <UniqueIdentifier>{D71A2963-6BD0-48ED-A873-02BF5FCA8895}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{78EC2158-13BD-4D54-8394-C717E8606002}</UniqueIdentifier>
+      <UniqueIdentifier>{44F8665A-C784-45C5-BEE0-212CB8AD044A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultArenaBattle.ini">
       <Filter>Config</Filter>
@@ -33,13 +33,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BookPractice">
-      <UniqueIdentifier>{C9C24A89-EBCB-4E4A-9A67-6FA7CDEF912D}</UniqueIdentifier>
+      <UniqueIdentifier>{2FD5EBE9-3003-4BFC-8CA2-509FF30DC078}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BookPractice\BookPractice.Build.cs">
       <Filter>Source\BookPractice</Filter>
     </None>
     <Filter Include="Source\BookPractice\private">
-      <UniqueIdentifier>{DD122C61-8AD9-408F-80B8-D66CD41622FB}</UniqueIdentifier>
+      <UniqueIdentifier>{128581BE-67D1-464B-80E3-87DC36D461DB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BookPractice\private\ABAIController.cpp">
       <Filter>Source\BookPractice\private</Filter>
@@ -69,6 +69,9 @@
       <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BookPractice\private\ABPlayerController.cpp">
+      <Filter>Source\BookPractice\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABSection.cpp">
       <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BookPractice\private\ABWeapon.cpp">
@@ -102,7 +105,7 @@
       <Filter>Source\BookPractice\private</Filter>
     </ClCompile>
     <Filter Include="Source\BookPractice\public">
-      <UniqueIdentifier>{AF48AEC0-AFEF-45ED-88F7-B26042B258C4}</UniqueIdentifier>
+      <UniqueIdentifier>{57A336A1-1E0F-4F58-8139-CDB053E19B7E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\BookPractice\public\ABAIController.h">
       <Filter>Source\BookPractice\public</Filter>
@@ -132,6 +135,9 @@
       <Filter>Source\BookPractice\public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BookPractice\public\ABPlayerController.h">
+      <Filter>Source\BookPractice\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABSection.h">
       <Filter>Source\BookPractice\public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BookPractice\public\ABWeapon.h">
@@ -165,13 +171,13 @@
       <Filter>Source\BookPractice\public</Filter>
     </ClInclude>
     <Filter Include="Source\ArenaBattleSetting">
-      <UniqueIdentifier>{19B154C4-022E-4DEC-BDE2-CBC6CBC09DEF}</UniqueIdentifier>
+      <UniqueIdentifier>{4AA0B042-057F-4F6A-9112-0AC0B7076DA4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattleSetting\ArenaBattleSetting.Build.cs">
       <Filter>Source\ArenaBattleSetting</Filter>
     </None>
     <Filter Include="Source\ArenaBattleSetting\Private">
-      <UniqueIdentifier>{D179F166-C677-4224-8B8A-BE98B23EFFD6}</UniqueIdentifier>
+      <UniqueIdentifier>{0D51DD2F-25C7-4C9B-9B30-A2D5BFEAF647}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ABCharacterSetting.cpp">
       <Filter>Source\ArenaBattleSetting\Private</Filter>
@@ -180,7 +186,7 @@
       <Filter>Source\ArenaBattleSetting\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ArenaBattleSetting\Public">
-      <UniqueIdentifier>{0A4E74EF-F74B-4B1B-8DC0-7254F153E09B}</UniqueIdentifier>
+      <UniqueIdentifier>{8075C42F-1CD8-4312-B1DE-3113865D490D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ABCharacterSetting.h">
       <Filter>Source\ArenaBattleSetting\Public</Filter>

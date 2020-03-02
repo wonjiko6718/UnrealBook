@@ -384,6 +384,7 @@
     <ClCompile Include="..\..\Source\BookPractice\private\ABItemBox.cpp"/>
     <ClCompile Include="..\..\Source\BookPractice\private\ABPawn.cpp"/>
     <ClCompile Include="..\..\Source\BookPractice\private\ABPlayerController.cpp"/>
+    <ClCompile Include="..\..\Source\BookPractice\private\ABSection.cpp"/>
     <ClCompile Include="..\..\Source\BookPractice\private\ABWeapon.cpp"/>
     <ClCompile Include="..\..\Source\BookPractice\private\BookPractice.cpp"/>
     <ClCompile Include="..\..\Source\BookPractice\private\BookPracticeCharacter.cpp"/>
@@ -404,6 +405,7 @@
     <ClInclude Include="..\..\Source\BookPractice\public\ABItemBox.h"/>
     <ClInclude Include="..\..\Source\BookPractice\public\ABPawn.h"/>
     <ClInclude Include="..\..\Source\BookPractice\public\ABPlayerController.h"/>
+    <ClInclude Include="..\..\Source\BookPractice\public\ABSection.h"/>
     <ClInclude Include="..\..\Source\BookPractice\public\ABWeapon.h"/>
     <ClInclude Include="..\..\Source\BookPractice\public\BookPractice.h"/>
     <ClInclude Include="..\..\Source\BookPractice\public\BookPracticeCharacter.h"/>
