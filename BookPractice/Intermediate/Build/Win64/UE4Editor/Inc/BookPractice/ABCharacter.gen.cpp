@@ -19,6 +19,9 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_BookPractice();
 	BOOKPRACTICE_API UFunction* Z_Construct_UFunction_AABCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	BOOKPRACTICE_API UClass* Z_Construct_UClass_AABPlayerController_NoRegister();
+	BOOKPRACTICE_API UClass* Z_Construct_UClass_AABAIController_NoRegister();
+	BOOKPRACTICE_API UEnum* Z_Construct_UEnum_BookPractice_ECharacterState();
 	BOOKPRACTICE_API UClass* Z_Construct_UClass_UABAnimInstance_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	BOOKPRACTICE_API UClass* Z_Construct_UClass_UABCharacterStatComponent_NoRegister();
@@ -87,6 +90,24 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABPlayerController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABPlayerController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABAIController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABAIController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsPlayer_MetaData[];
+#endif
+		static void NewProp_bIsPlayer_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsPlayer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentState_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_CurrentState;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CurrentState_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRadius_MetaData[];
 #endif
@@ -164,6 +185,39 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		{ "ModuleRelativePath", "public/ABCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_ABPlayerController_MetaData[] = {
+		{ "ModuleRelativePath", "public/ABCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_ABPlayerController = { "ABPlayerController", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABCharacter, ABPlayerController), Z_Construct_UClass_AABPlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_ABPlayerController_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_ABPlayerController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_ABAIController_MetaData[] = {
+		{ "ModuleRelativePath", "public/ABCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_ABAIController = { "ABAIController", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABCharacter, ABAIController), Z_Construct_UClass_AABAIController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_ABAIController_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_ABAIController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "public/ABCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer_SetBit(void* Obj)
+	{
+		((AABCharacter*)Obj)->bIsPlayer = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer = { "bIsPlayer", nullptr, (EPropertyFlags)0x0040000000022815, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AABCharacter), &Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer_SetBit, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "public/ABCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState = { "CurrentState", nullptr, (EPropertyFlags)0x0040000000022815, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABCharacter, CurrentState), Z_Construct_UEnum_BookPractice_ECharacterState, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABCharacter_Statics::NewProp_AttackRadius_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -286,6 +340,11 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AABCharacter_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AABCharacter, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AABCharacter_Statics::NewProp_SpringArm_MetaData, ARRAY_COUNT(Z_Construct_UClass_AABCharacter_Statics::NewProp_SpringArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_ABPlayerController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_ABAIController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_bIsPlayer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_CurrentState_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_AttackRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_AttackRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABCharacter_Statics::NewProp_MaxCombo,
@@ -328,7 +387,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABCharacter, 3252704957);
+	IMPLEMENT_CLASS(AABCharacter, 953081266);
 	template<> BOOKPRACTICE_API UClass* StaticClass<AABCharacter>()
 	{
 		return AABCharacter::StaticClass();
